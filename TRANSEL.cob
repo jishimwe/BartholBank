@@ -1,0 +1,33 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.     TRANSEL.
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       DATA DIVISION.
+       LINKAGE SECTION.
+        COPY TRANCTRL.
+        COPY TRAN REPLACING ==:PREFIX:== BY ====.
+       WORKING-STORAGE SECTION.
+        COPY SCREENIOV.
+        01 WRK-VARS.
+            05 WRK-INPUT-VAR  PIC X(10).
+            05 W-TRAN-ID PIC 9(5).
+       PROCEDURE DIVISION USING TRAN-CTRL-BLK TRAN-REC.
+          PERFORM CLS.
+          CALL "TRANLIST".
+          PERFORM NEW-LINE.
+          PERFORM READ-TRAN-ID.
+          IF W-TRAN-ID NOT = 0 THEN
+            MOVE W-TRAN-ID TO TRAN-ID
+            CALL "TRANRID" USING TRAN-CTRL-BLK TRAN-REC
+            IF TRAN-CTRL-RET-CODE NOT = 0 THEN
+              MOVE "Transaction not found" TO SCREEN-MSG
+              PERFORM DISPLAY-ERR-MSG
+              INITIALIZE TRAN-REC
+              END-IF
+            END-IF.
+          GOBACK.
+       READ-TRAN-ID.
+          DISPLAY "TRansaction id: " NO ADVANCING.
+          MOVE 0 TO W-TRAN-ID.
+          ACCEPT W-TRAN-ID.
+       COPY SCREENIO.

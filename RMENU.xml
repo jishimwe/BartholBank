@@ -1,0 +1,1105 @@
+﻿<SourceFile xmlns:xsi="http://www.w3.org/2001/XMLSchema" FullName="C:\Users\johan\Documents\Intimals\Reference_Sources\BartholBank\RMENU.cob" Language="Cobol" ID="429">
+
+ <ROOT LineNr="1" EndLineNr="107" ColNr="2" EndColNr="30" ID="-1"><ThePrograms ID="677" LineNr="1" EndLineNr="107" ColNr="" EndColNr="30"><CobolProgram LineNr="1" EndLineNr="107" ColNr="2" EndColNr="30" ID="1">
+  <TheIdentificationDivision LineNr="1" EndLineNr="2" ColNr="2" EndColNr="23" ID="-2"><IdentificationDivision LineNr="1" EndLineNr="2" ColNr="2" EndColNr="23" ID="2">
+   <TheProgramIdClause LineNr="2" EndLineNr="2" ColNr="2" EndColNr="23" ID="-23"><ProgramIdClause LineNr="2" EndLineNr="2" ColNr="2" EndColNr="23" ID="23">
+    <TheId LineNr="2" EndLineNr="2" ColNr="18" EndColNr="22" ID="-24"><AnonIdent LineNr="2" EndLineNr="2" ColNr="18" EndColNr="22" ID="24">
+     <TheValue ID="430" LineNr="2" EndLineNr="2" ColNr="18" EndColNr="22">RMENU</TheValue>
+    </AnonIdent></TheId>
+   </ProgramIdClause></TheProgramIdClause>
+  </IdentificationDivision></TheIdentificationDivision>
+  <TheEnvironmentDivision LineNr="3" EndLineNr="4" ColNr="2" EndColNr="25" ID="-25"><EnvironmentDivision LineNr="3" EndLineNr="4" ColNr="2" EndColNr="25" ID="25">
+   <TheConfigurationSection LineNr="4" EndLineNr="4" ColNr="2" EndColNr="25" ID="-26"><ConfigurationSection LineNr="4" EndLineNr="4" ColNr="2" EndColNr="25" ID="26">
+   </ConfigurationSection></TheConfigurationSection>
+  </EnvironmentDivision></TheEnvironmentDivision>
+  <TheDataDivision LineNr="5" EndLineNr="29" ColNr="2" EndColNr="33" ID="-27"><DataDivision LineNr="5" EndLineNr="29" ColNr="2" EndColNr="33" ID="27">
+   <TheWorkingStorageSection LineNr="13" EndLineNr="29" ColNr="2" EndColNr="33" ID="-48"><WorkingStorageSection LineNr="13" EndLineNr="29" ColNr="2" EndColNr="33" ID="48">
+    <TheData LineNr="14" EndLineNr="29" ColNr="2" EndColNr="33" ID="-49"><DataDecl LineNr="14" EndLineNr="29" ColNr="2" EndColNr="33" ID="49"><TheFields LineNr="1" EndLineNr="29" ColNr="2" EndColNr="33" ID="-22" Level="1"><DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="22" Level="1"><TheSpecialCode ID="431" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="435" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-21" XRef="22"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="21" XRef="22">
+       <TheValue ID="432" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">RETURN-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-20"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="20">
+       <TheValue ID="433" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(4)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-19"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="19">
+       <TheCode ID="434" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="18" Level="1"><TheSpecialCode ID="436" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="440" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-17" XRef="18"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="17" XRef="18">
+       <TheValue ID="437" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">SORT-RETURN</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-16"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="16">
+       <TheValue ID="438" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(4)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-15"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="15">
+       <TheCode ID="439" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="14" Level="1"><TheSpecialCode ID="441" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="445" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-13" XRef="14"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="13" XRef="14">
+       <TheValue ID="442" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">SORT-CORE-SIZE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12">
+       <TheValue ID="443" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(8)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-11"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="11">
+       <TheCode ID="444" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="10" Level="1"><TheSpecialCode ID="446" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="450" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-9" XRef="10"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="9" XRef="10">
+       <TheValue ID="447" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TALLY</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-8"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="8">
+       <TheValue ID="448" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-7"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="7">
+       <TheCode ID="449" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="6" Level="1"><TheSpecialCode ID="451" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="455" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-5" XRef="6"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="5" XRef="6">
+       <TheValue ID="452" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">XML-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-4"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="4">
+       <TheValue ID="453" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(9)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-3"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="3">
+       <TheCode ID="454" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="14" EndLineNr="14" ColNr="2" EndColNr="12" ID="50" Level="1"><TheDot ID="457" LineNr="14" EndLineNr="14" ColNr="2" EndColNr="12">TRUE</TheDot>
+      <TheId LineNr="14" EndLineNr="14" ColNr="5" EndColNr="9" ID="-51" XRef="50"><DataIdent LineNr="14" EndLineNr="14" ColNr="5" EndColNr="9" ID="51" XRef="50">
+       <TheValue ID="456" LineNr="14" EndLineNr="14" ColNr="5" EndColNr="9">W-VAR</TheValue>
+      </DataIdent></TheId>
+      
+     </DataField>
+     <DataField LineNr="15" EndLineNr="15" ColNr="7" EndColNr="25" ID="52" Level="5" ParentLevel="50"><TheDot ID="460" LineNr="15" EndLineNr="15" ColNr="7" EndColNr="25">TRUE</TheDot>
+      <TheId LineNr="15" EndLineNr="15" ColNr="10" EndColNr="12" ID="-53" XRef="52"><DataIdent LineNr="15" EndLineNr="15" ColNr="10" EndColNr="12" ID="53" XRef="52">
+       <TheValue ID="458" LineNr="15" EndLineNr="15" ColNr="10" EndColNr="12">W-X</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="15" EndLineNr="15" ColNr="14" EndColNr="22" ID="-54"><PicClause LineNr="15" EndLineNr="15" ColNr="14" EndColNr="22" ID="54">
+       <TheValue ID="459" LineNr="15" EndLineNr="15" ColNr="14" EndColNr="22">X(10)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="16" EndLineNr="16" ColNr="7" EndColNr="31" ID="55" Level="5" ParentLevel="50"><TheDot ID="464" LineNr="16" EndLineNr="16" ColNr="7" EndColNr="31">TRUE</TheDot>
+      <TheId LineNr="16" EndLineNr="16" ColNr="10" EndColNr="12" ID="-56" XRef="55"><DataIdent LineNr="16" EndLineNr="16" ColNr="10" EndColNr="12" ID="56" XRef="55">
+       <TheValue ID="461" LineNr="16" EndLineNr="16" ColNr="10" EndColNr="12">W-I</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="16" EndLineNr="16" ColNr="21" EndColNr="28" ID="-58"><PicClause LineNr="16" EndLineNr="16" ColNr="21" EndColNr="28" ID="58">
+       <TheValue ID="462" LineNr="16" EndLineNr="16" ColNr="21" EndColNr="28">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="16" EndLineNr="16" ColNr="14" EndColNr="19" ID="-57"><UsageClause LineNr="16" EndLineNr="16" ColNr="14" EndColNr="19" ID="57">
+       <TheCode ID="463" LineNr="16" EndLineNr="16" ColNr="14" EndColNr="19">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="17" EndLineNr="17" ColNr="7" EndColNr="26" ID="59" Level="5" ParentLevel="50"><TheDot ID="467" LineNr="17" EndLineNr="17" ColNr="7" EndColNr="26">TRUE</TheDot>
+      <TheId LineNr="17" EndLineNr="17" ColNr="10" EndColNr="14" ID="-60" XRef="59"><DataIdent LineNr="17" EndLineNr="17" ColNr="10" EndColNr="14" ID="60" XRef="59">
+       <TheValue ID="465" LineNr="17" EndLineNr="17" ColNr="10" EndColNr="14">W-SEL</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="17" EndLineNr="17" ColNr="16" EndColNr="23" ID="-61"><PicClause LineNr="17" EndLineNr="17" ColNr="16" EndColNr="23" ID="61">
+       <TheValue ID="466" LineNr="17" EndLineNr="17" ColNr="16" EndColNr="23">X(1)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="21" EndLineNr="21" ColNr="2" EndColNr="18" ID="62" Level="1"><TheDot ID="469" LineNr="21" EndLineNr="21" ColNr="2" EndColNr="18">TRUE</TheDot>
+      <TheId LineNr="21" EndLineNr="21" ColNr="5" EndColNr="15" ID="-63" XRef="62"><DataIdent LineNr="21" EndLineNr="21" ColNr="5" EndColNr="15" ID="63" XRef="62">
+       <TheValue ID="468" LineNr="21" EndLineNr="21" ColNr="5" EndColNr="15">SCREEN-VARS</TheValue>
+      </DataIdent></TheId>
+      
+     </DataField>
+     <DataField LineNr="22" EndLineNr="22" ColNr="6" EndColNr="31" ID="64" Level="5" ParentLevel="62"><TheDot ID="472" LineNr="22" EndLineNr="22" ColNr="6" EndColNr="31">TRUE</TheDot>
+      <TheId LineNr="22" EndLineNr="22" ColNr="9" EndColNr="19" ID="-65" XRef="64"><DataIdent LineNr="22" EndLineNr="22" ColNr="9" EndColNr="19" ID="65" XRef="64">
+       <TheValue ID="470" LineNr="22" EndLineNr="22" ColNr="9" EndColNr="19">SCREEN-BUFF</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="22" EndLineNr="22" ColNr="21" EndColNr="28" ID="-66"><PicClause LineNr="22" EndLineNr="22" ColNr="21" EndColNr="28" ID="66">
+       <TheValue ID="471" LineNr="22" EndLineNr="22" ColNr="21" EndColNr="28">X(5)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="23" EndLineNr="23" ColNr="6" EndColNr="30" ID="67" Level="5" ParentLevel="62"><TheDot ID="475" LineNr="23" EndLineNr="23" ColNr="6" EndColNr="30">TRUE</TheDot>
+      <TheId LineNr="23" EndLineNr="23" ColNr="9" EndColNr="18" ID="-68" XRef="67"><DataIdent LineNr="23" EndLineNr="23" ColNr="9" EndColNr="18" ID="68" XRef="67">
+       <TheValue ID="473" LineNr="23" EndLineNr="23" ColNr="9" EndColNr="18">SCREEN-KEY</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="23" EndLineNr="23" ColNr="20" EndColNr="27" ID="-69"><PicClause LineNr="23" EndLineNr="23" ColNr="20" EndColNr="27" ID="69">
+       <TheValue ID="474" LineNr="23" EndLineNr="23" ColNr="20" EndColNr="27">X(1)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="24" EndLineNr="24" ColNr="6" EndColNr="31" ID="70" Level="5" ParentLevel="62"><TheDot ID="478" LineNr="24" EndLineNr="24" ColNr="6" EndColNr="31">TRUE</TheDot>
+      <TheId LineNr="24" EndLineNr="24" ColNr="9" EndColNr="18" ID="-71" XRef="70"><DataIdent LineNr="24" EndLineNr="24" ColNr="9" EndColNr="18" ID="71" XRef="70">
+       <TheValue ID="476" LineNr="24" EndLineNr="24" ColNr="9" EndColNr="18">SCREEN-MSG</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="24" EndLineNr="24" ColNr="20" EndColNr="28" ID="-72"><PicClause LineNr="24" EndLineNr="24" ColNr="20" EndColNr="28" ID="72">
+       <TheValue ID="477" LineNr="24" EndLineNr="24" ColNr="20" EndColNr="28">X(78)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="25" EndLineNr="25" ColNr="6" EndColNr="33" ID="73" Level="5" ParentLevel="62"><TheDot ID="481" LineNr="25" EndLineNr="25" ColNr="6" EndColNr="33">TRUE</TheDot>
+      <TheId LineNr="25" EndLineNr="25" ColNr="9" EndColNr="20" ID="-74" XRef="73"><DataIdent LineNr="25" EndLineNr="25" ColNr="9" EndColNr="20" ID="74" XRef="73">
+       <TheValue ID="479" LineNr="25" EndLineNr="25" ColNr="9" EndColNr="20">SCREEN-MSG-2</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="25" EndLineNr="25" ColNr="22" EndColNr="30" ID="-75"><PicClause LineNr="25" EndLineNr="25" ColNr="22" EndColNr="30" ID="75">
+       <TheValue ID="480" LineNr="25" EndLineNr="25" ColNr="22" EndColNr="30">X(78)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="26" EndLineNr="26" ColNr="6" EndColNr="37" ID="76" Level="5" ParentLevel="62"><TheDot ID="485" LineNr="26" EndLineNr="26" ColNr="6" EndColNr="37">TRUE</TheDot>
+      <TheId LineNr="26" EndLineNr="26" ColNr="9" EndColNr="18" ID="-77" XRef="76"><DataIdent LineNr="26" EndLineNr="26" ColNr="9" EndColNr="18" ID="77" XRef="76">
+       <TheValue ID="482" LineNr="26" EndLineNr="26" ColNr="9" EndColNr="18">SCREEN-LEN</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="26" EndLineNr="26" ColNr="20" EndColNr="27" ID="-78"><PicClause LineNr="26" EndLineNr="26" ColNr="20" EndColNr="27" ID="78">
+       <TheValue ID="483" LineNr="26" EndLineNr="26" ColNr="20" EndColNr="27">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="26" EndLineNr="26" ColNr="29" EndColNr="34" ID="-79"><UsageClause LineNr="26" EndLineNr="26" ColNr="29" EndColNr="34" ID="79">
+       <TheCode ID="484" LineNr="26" EndLineNr="26" ColNr="29" EndColNr="34">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="27" EndLineNr="27" ColNr="6" EndColNr="30" ID="80" Level="5" ParentLevel="62"><TheDot ID="488" LineNr="27" EndLineNr="27" ColNr="6" EndColNr="30">TRUE</TheDot>
+      <TheId LineNr="27" EndLineNr="27" ColNr="9" EndColNr="21" ID="-81" XRef="80"><DataIdent LineNr="27" EndLineNr="27" ColNr="9" EndColNr="21" ID="81" XRef="80">
+       <TheValue ID="486" LineNr="27" EndLineNr="27" ColNr="9" EndColNr="21">SCREEN-ANSWER</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="27" EndLineNr="27" ColNr="23" EndColNr="27" ID="-82"><PicClause LineNr="27" EndLineNr="27" ColNr="23" EndColNr="27" ID="82">
+       <TheValue ID="487" LineNr="27" EndLineNr="27" ColNr="23" EndColNr="27">X</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="28" EndLineNr="28" ColNr="8" EndColNr="46" ID="83" Level="88" ParentLevel="80"><TheDot ID="491" LineNr="28" EndLineNr="28" ColNr="8" EndColNr="46">TRUE</TheDot>
+      <TheId LineNr="28" EndLineNr="28" ColNr="11" EndColNr="20" ID="-84" XRef="83"><DataIdent LineNr="28" EndLineNr="28" ColNr="11" EndColNr="20" ID="84" XRef="83">
+       <TheValue ID="489" LineNr="28" EndLineNr="28" ColNr="11" EndColNr="20">SCREEN-YES</TheValue>
+      </DataIdent></TheId>
+      <TheValueClause LineNr="28" EndLineNr="28" ColNr="22" EndColNr="30" ID="-85"><L88ValueClause LineNr="28" EndLineNr="28" ColNr="22" EndColNr="30" ID="85">
+       <TheEntryList LineNr="28" EndLineNr="28" ColNr="28" EndColNr="30" ID="-86"><ValueEntry LineNr="28" EndLineNr="28" ColNr="28" EndColNr="30" ID="86">
+        <TheFirstValue LineNr="28" EndLineNr="28" ColNr="28" EndColNr="30" ID="-87"><StringLiteral LineNr="28" EndLineNr="28" ColNr="28" EndColNr="30" ID="87">
+         <TheValue ID="490" LineNr="28" EndLineNr="28" ColNr="28" EndColNr="30">'Y'</TheValue>
+        </StringLiteral></TheFirstValue>
+       </ValueEntry></TheEntryList>
+      </L88ValueClause></TheValueClause>
+      
+     </DataField>
+     <DataField LineNr="29" EndLineNr="29" ColNr="8" EndColNr="33" ID="88" Level="88" ParentLevel="80"><TheDot ID="494" LineNr="29" EndLineNr="29" ColNr="8" EndColNr="33">TRUE</TheDot>
+      <TheId LineNr="29" EndLineNr="29" ColNr="11" EndColNr="19" ID="-89" XRef="88"><DataIdent LineNr="29" EndLineNr="29" ColNr="11" EndColNr="19" ID="89" XRef="88">
+       <TheValue ID="492" LineNr="29" EndLineNr="29" ColNr="11" EndColNr="19">SCREEN-NO</TheValue>
+      </DataIdent></TheId>
+      <TheValueClause LineNr="29" EndLineNr="29" ColNr="22" EndColNr="30" ID="-90"><L88ValueClause LineNr="29" EndLineNr="29" ColNr="22" EndColNr="30" ID="90">
+       <TheEntryList LineNr="29" EndLineNr="29" ColNr="28" EndColNr="30" ID="-91"><ValueEntry LineNr="29" EndLineNr="29" ColNr="28" EndColNr="30" ID="91">
+        <TheFirstValue LineNr="29" EndLineNr="29" ColNr="28" EndColNr="30" ID="-92"><StringLiteral LineNr="29" EndLineNr="29" ColNr="28" EndColNr="30" ID="92">
+         <TheValue ID="493" LineNr="29" EndLineNr="29" ColNr="28" EndColNr="30">'N'</TheValue>
+        </StringLiteral></TheFirstValue>
+       </ValueEntry></TheEntryList>
+      </L88ValueClause></TheValueClause>
+      
+     </DataField>
+    </TheFields></DataDecl></TheData>
+   </WorkingStorageSection></TheWorkingStorageSection>
+   <TheLinkageSection LineNr="6" EndLineNr="12" ColNr="2" EndColNr="30" ID="-28"><LinkageSection LineNr="6" EndLineNr="12" ColNr="2" EndColNr="30" ID="28">
+    <TheData LineNr="7" EndLineNr="12" ColNr="2" EndColNr="30" ID="-29"><DataDecl LineNr="7" EndLineNr="12" ColNr="2" EndColNr="30" ID="29"><TheFields LineNr="7" EndLineNr="12" ColNr="2" EndColNr="30" ID="-30" Level="1"><DataField LineNr="7" EndLineNr="7" ColNr="2" EndColNr="13" ID="30" Level="1"><TheDot ID="496" LineNr="7" EndLineNr="7" ColNr="2" EndColNr="13">TRUE</TheDot>
+      <TheId LineNr="7" EndLineNr="7" ColNr="5" EndColNr="10" ID="-31" XRef="30"><DataIdent LineNr="7" EndLineNr="7" ColNr="5" EndColNr="10" ID="31" XRef="30">
+       <TheValue ID="495" LineNr="7" EndLineNr="7" ColNr="5" EndColNr="10">M-MENU</TheValue>
+      </DataIdent></TheId>
+      
+     </DataField>
+     
+     <DataField LineNr="8" EndLineNr="8" ColNr="7" EndColNr="32" ID="32" Level="5" ParentLevel="30"><TheDot ID="499" LineNr="8" EndLineNr="8" ColNr="7" EndColNr="32">TRUE</TheDot>
+      <TheId LineNr="8" EndLineNr="8" ColNr="10" EndColNr="20" ID="-33" XRef="32"><DataIdent LineNr="8" EndLineNr="8" ColNr="10" EndColNr="20" ID="33" XRef="32">
+       <TheValue ID="497" LineNr="8" EndLineNr="8" ColNr="10" EndColNr="20">M-SELECTION</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="8" EndLineNr="8" ColNr="22" EndColNr="29" ID="-34"><PicClause LineNr="8" EndLineNr="8" ColNr="22" EndColNr="29" ID="34">
+       <TheValue ID="498" LineNr="8" EndLineNr="8" ColNr="22" EndColNr="29">X(1)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="9" EndLineNr="9" ColNr="7" EndColNr="29" ID="35" Level="5" ParentLevel="30"><TheDot ID="502" LineNr="9" EndLineNr="9" ColNr="7" EndColNr="29">TRUE</TheDot>
+      <TheId LineNr="9" EndLineNr="9" ColNr="10" EndColNr="16" ID="-36" XRef="35"><DataIdent LineNr="9" EndLineNr="9" ColNr="10" EndColNr="16" ID="36" XRef="35">
+       <TheValue ID="500" LineNr="9" EndLineNr="9" ColNr="10" EndColNr="16">M-TITLE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="9" EndLineNr="9" ColNr="18" EndColNr="26" ID="-37"><PicClause LineNr="9" EndLineNr="9" ColNr="18" EndColNr="26" ID="37">
+       <TheValue ID="501" LineNr="9" EndLineNr="9" ColNr="18" EndColNr="26">X(40)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="10" EndLineNr="10" ColNr="7" EndColNr="30" ID="38" Level="5" ParentLevel="30"><TheDot ID="504" LineNr="10" EndLineNr="10" ColNr="7" EndColNr="30">TRUE</TheDot>
+      <TheId LineNr="10" EndLineNr="10" ColNr="10" EndColNr="17" ID="-39" XRef="38"><DataIdent LineNr="10" EndLineNr="10" ColNr="10" EndColNr="17" ID="39" XRef="38">
+       <TheValue ID="503" LineNr="10" EndLineNr="10" ColNr="10" EndColNr="17">M-OPTION</TheValue>
+      </DataIdent></TheId>
+      
+      <TheOccursClause LineNr="10" EndLineNr="10" ColNr="19" EndColNr="27" ID="-40"><OccursClause LineNr="10" EndLineNr="10" ColNr="19" EndColNr="27" ID="40">
+       <TheTimes LineNr="10" EndLineNr="10" ColNr="26" EndColNr="27" ID="-41"><IntegerLiteral LineNr="10" EndLineNr="10" ColNr="26" EndColNr="27" ID="41">
+        <TheValue ID="505" LineNr="10" EndLineNr="10" ColNr="26" EndColNr="27">10</TheValue>
+       </IntegerLiteral></TheTimes>
+      </OccursClause></TheOccursClause>
+     </DataField>
+     <DataField LineNr="11" EndLineNr="11" ColNr="9" EndColNr="29" ID="42" Level="10" ParentLevel="38"><TheDot ID="508" LineNr="11" EndLineNr="11" ColNr="9" EndColNr="29">TRUE</TheDot>
+      <TheId LineNr="11" EndLineNr="11" ColNr="12" EndColNr="17" ID="-43" XRef="42"><DataIdent LineNr="11" EndLineNr="11" ColNr="12" EndColNr="17" ID="43" XRef="42">
+       <TheValue ID="506" LineNr="11" EndLineNr="11" ColNr="12" EndColNr="17">M-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="11" EndLineNr="11" ColNr="19" EndColNr="26" ID="-44"><PicClause LineNr="11" EndLineNr="11" ColNr="19" EndColNr="26" ID="44">
+       <TheValue ID="507" LineNr="11" EndLineNr="11" ColNr="19" EndColNr="26">X(1)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="12" EndLineNr="12" ColNr="9" EndColNr="30" ID="45" Level="10" ParentLevel="38"><TheDot ID="511" LineNr="12" EndLineNr="12" ColNr="9" EndColNr="30">TRUE</TheDot>
+      <TheId LineNr="12" EndLineNr="12" ColNr="12" EndColNr="17" ID="-46" XRef="45"><DataIdent LineNr="12" EndLineNr="12" ColNr="12" EndColNr="17" ID="46" XRef="45">
+       <TheValue ID="509" LineNr="12" EndLineNr="12" ColNr="12" EndColNr="17">M-TEXT</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="12" EndLineNr="12" ColNr="19" EndColNr="27" ID="-47"><PicClause LineNr="12" EndLineNr="12" ColNr="19" EndColNr="27" ID="47">
+       <TheValue ID="510" LineNr="12" EndLineNr="12" ColNr="19" EndColNr="27">X(40)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+    </TheFields></DataDecl></TheData>
+   </LinkageSection></TheLinkageSection>
+  </DataDivision></TheDataDivision>
+  <TheProcedureDivision LineNr="31" EndLineNr="107" ColNr="2" EndColNr="30" ID="-93"><ProcedureDivision LineNr="31" EndLineNr="107" ColNr="2" EndColNr="30" ID="93"><TheUsingKeyword ID="512" LineNr="31" EndLineNr="107" ColNr="2" EndColNr="30">UsingKeyword</TheUsingKeyword>
+   
+   <TheUsingList LineNr="31" EndLineNr="31" ColNr="27" EndColNr="32" ID="-94"><UsingItem LineNr="31" EndLineNr="31" ColNr="27" EndColNr="32" ID="94">
+    <TheId LineNr="31" EndLineNr="31" ColNr="27" EndColNr="32" ID="-95" XRef="30"><DataIdent LineNr="31" EndLineNr="31" ColNr="27" EndColNr="32" ID="95" XRef="30">
+     <TheValue ID="513" LineNr="31" EndLineNr="31" ColNr="27" EndColNr="32">M-MENU</TheValue>
+    </DataIdent></TheId>
+   </UsingItem></TheUsingList>
+   <TheLabelLessStatements LineNr="32" EndLineNr="34" ColNr="6" EndColNr="12" ID="-96"><PeriodStatementList LineNr="32" EndLineNr="34" ColNr="6" EndColNr="12" ID="96"><AList LineNr="32" EndLineNr="34" ColNr="6" EndColNr="12" ID="-97"><PerformStatement LineNr="32" EndLineNr="32" ColNr="6" EndColNr="26" ID="97">
+     <TheCodeRef LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="-98"><SectionCodeRef LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="98">
+      <TheFromLabel LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="-99" XRef="106"><TargetLabel LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="99" XRef="106">
+       <TheTarget LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="-100" XRef="106"><LabelIdent LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25" ID="100" XRef="106">
+        <TheValue ID="514" LineNr="32" EndLineNr="32" ColNr="14" EndColNr="25">DISPLAY-MENU</TheValue>
+       </LabelIdent></TheTarget>
+      </TargetLabel></TheFromLabel>
+     </SectionCodeRef></TheCodeRef>
+    </PerformStatement>
+    
+    <PerformStatement LineNr="33" EndLineNr="33" ColNr="6" EndColNr="28" ID="101">
+     <TheCodeRef LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="-102"><SectionCodeRef LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="102">
+      <TheFromLabel LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="-103" XRef="205"><TargetLabel LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="103" XRef="205">
+       <TheTarget LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="-104" XRef="205"><LabelIdent LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27" ID="104" XRef="205">
+        <TheValue ID="515" LineNr="33" EndLineNr="33" ColNr="14" EndColNr="27">ASK-FOR-CHOICE</TheValue>
+       </LabelIdent></TheTarget>
+      </TargetLabel></TheFromLabel>
+     </SectionCodeRef></TheCodeRef>
+    </PerformStatement>
+    <StopStatement LineNr="34" EndLineNr="34" ColNr="6" EndColNr="12" ID="105">
+     <TheMode ID="516" LineNr="34" EndLineNr="34" ColNr="6" EndColNr="12">GoBackKeyword</TheMode>
+    </StopStatement>
+   </AList></PeriodStatementList></TheLabelLessStatements>
+   <TheBlocks LineNr="35" EndLineNr="107" ColNr="2" EndColNr="30" ID="-106"><ParagraphStatementBlock LineNr="35" EndLineNr="38" ColNr="2" EndColNr="32" ID="106"><TheDot ID="521" LineNr="35" EndLineNr="38" ColNr="2" EndColNr="32">TRUE</TheDot>
+    <ALabelIdent LineNr="35" EndLineNr="35" ColNr="2" EndColNr="13" ID="-107"><LabelIdent LineNr="35" EndLineNr="35" ColNr="2" EndColNr="13" ID="107">
+     <TheValue ID="517" LineNr="35" EndLineNr="35" ColNr="2" EndColNr="13">DISPLAY-MENU</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="36" EndLineNr="38" ColNr="6" EndColNr="32" ID="-108"><PeriodStatementList LineNr="36" EndLineNr="38" ColNr="6" EndColNr="32" ID="108"><AList LineNr="36" EndLineNr="38" ColNr="6" EndColNr="32" ID="-109"><PerformStatement LineNr="36" EndLineNr="36" ColNr="6" EndColNr="22" ID="109">
+      <TheCodeRef LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="-110"><SectionCodeRef LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="110">
+       <TheFromLabel LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="-111" XRef="343"><TargetLabel LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="111" XRef="343">
+        <TheTarget LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="-112" XRef="343"><LabelIdent LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21" ID="112" XRef="343">
+         <TheValue ID="518" LineNr="36" EndLineNr="36" ColNr="14" EndColNr="21">NEW-LINE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+     
+     <PerformStatement LineNr="37" EndLineNr="37" ColNr="6" EndColNr="26" ID="113">
+      <TheCodeRef LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="-114"><SectionCodeRef LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="114">
+       <TheFromLabel LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="-115" XRef="135"><TargetLabel LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="115" XRef="135">
+        <TheTarget LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="-116" XRef="135"><LabelIdent LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25" ID="116" XRef="135">
+         <TheValue ID="519" LineNr="37" EndLineNr="37" ColNr="14" EndColNr="25">DISPLAY-BODY</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+     <PerformStatement LineNr="38" EndLineNr="38" ColNr="6" EndColNr="32" ID="117">
+      <TheCodeRef LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="-118"><SectionCodeRef LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="118">
+       <TheFromLabel LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="-119" XRef="121"><TargetLabel LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="119" XRef="121">
+        <TheTarget LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="-120" XRef="121"><LabelIdent LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31" ID="120" XRef="121">
+         <TheValue ID="520" LineNr="38" EndLineNr="38" ColNr="14" EndColNr="31">DISPLAY-MENU-TITLE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="39" EndLineNr="41" ColNr="2" EndColNr="27" ID="121"><TheDot ID="526" LineNr="39" EndLineNr="41" ColNr="2" EndColNr="27">TRUE</TheDot>
+    <ALabelIdent LineNr="39" EndLineNr="39" ColNr="2" EndColNr="19" ID="-122"><LabelIdent LineNr="39" EndLineNr="39" ColNr="2" EndColNr="19" ID="122">
+     <TheValue ID="522" LineNr="39" EndLineNr="39" ColNr="2" EndColNr="19">DISPLAY-MENU-TITLE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="40" EndLineNr="41" ColNr="6" EndColNr="27" ID="-123"><PeriodStatementList LineNr="40" EndLineNr="41" ColNr="6" EndColNr="27" ID="123"><AList LineNr="40" EndLineNr="41" ColNr="6" EndColNr="27" ID="-124"><MoveStatement LineNr="40" EndLineNr="40" ColNr="6" EndColNr="32" ID="124">
+      <TheExpr LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="-125" XRef="35"><Designator LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="125" XRef="35">
+       <TheElements LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="-126"><DesigElement LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="126">
+        <TheIdent LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="-127" XRef="35"><DataIdent LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17" ID="127" XRef="35">
+         <TheValue ID="523" LineNr="40" EndLineNr="40" ColNr="11" EndColNr="17">M-TITLE</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheExpr>
+      <TheTargets LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="-128" XRef="70"><Designator LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="128" XRef="70">
+       <TheElements LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="-129"><DesigElement LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="129">
+        <TheIdent LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="-130" XRef="70"><DataIdent LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31" ID="130" XRef="70">
+         <TheValue ID="524" LineNr="40" EndLineNr="40" ColNr="22" EndColNr="31">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     
+     <PerformStatement LineNr="41" EndLineNr="41" ColNr="6" EndColNr="27" ID="131">
+      <TheCodeRef LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="-132"><SectionCodeRef LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="132">
+       <TheFromLabel LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="-133" XRef="278"><TargetLabel LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="133" XRef="278">
+        <TheTarget LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="-134" XRef="278"><LabelIdent LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26" ID="134" XRef="278">
+         <TheValue ID="525" LineNr="41" EndLineNr="41" ColNr="14" EndColNr="26">DISPLAY-TITLE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="42" EndLineNr="56" ColNr="2" EndColNr="17" ID="135"><TheDot ID="561" LineNr="42" EndLineNr="56" ColNr="2" EndColNr="17">TRUE</TheDot>
+    <ALabelIdent LineNr="42" EndLineNr="42" ColNr="2" EndColNr="13" ID="-136"><LabelIdent LineNr="42" EndLineNr="42" ColNr="2" EndColNr="13" ID="136">
+     <TheValue ID="527" LineNr="42" EndLineNr="42" ColNr="2" EndColNr="13">DISPLAY-BODY</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="43" EndLineNr="56" ColNr="6" EndColNr="17" ID="-137"><PeriodStatementList LineNr="43" EndLineNr="56" ColNr="6" EndColNr="17" ID="137"><AList LineNr="43" EndLineNr="56" ColNr="6" EndColNr="17" ID="-138"><MoveStatement LineNr="43" EndLineNr="43" ColNr="6" EndColNr="19" ID="138">
+      <TheExpr LineNr="43" EndLineNr="43" ColNr="11" EndColNr="11" ID="-139"><IntegerLiteral LineNr="43" EndLineNr="43" ColNr="11" EndColNr="11" ID="139">
+       <TheValue ID="528" LineNr="43" EndLineNr="43" ColNr="11" EndColNr="11">1</TheValue>
+      </IntegerLiteral></TheExpr>
+      <TheTargets LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="-140" XRef="55"><Designator LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="140" XRef="55">
+       <TheElements LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="-141"><DesigElement LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="141">
+        <TheIdent LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="-142" XRef="55"><DataIdent LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18" ID="142" XRef="55">
+         <TheValue ID="529" LineNr="43" EndLineNr="43" ColNr="16" EndColNr="18">W-I</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     
+     <PerformStatement LineNr="44" EndLineNr="56" ColNr="6" EndColNr="17" ID="143"><TheTestMode ID="539" LineNr="44" EndLineNr="56" ColNr="6" EndColNr="17">BeforeKeyword</TheTestMode><TheEnd ID="560" LineNr="44" EndLineNr="56" ColNr="6" EndColNr="17">TRUE</TheEnd>
+      <TheVaryingClausesList LineNr="46" EndLineNr="47" ColNr="9" EndColNr="49" ID="-144"><VaryingClausesList LineNr="46" EndLineNr="47" ColNr="9" EndColNr="49" ID="144">
+       <TheClauses LineNr="46" EndLineNr="47" ColNr="9" EndColNr="49" ID="-145"><VaryingClause LineNr="46" EndLineNr="47" ColNr="9" EndColNr="49" ID="145"><TheMode ID="530" LineNr="46" EndLineNr="47" ColNr="9" EndColNr="49">VaryingKeyword</TheMode>
+        
+        <TheIndex LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="-146" XRef="55"><Designator LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="146" XRef="55">
+         <TheElements LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="-147"><DesigElement LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="147">
+          <TheIdent LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="-148" XRef="55"><DataIdent LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19" ID="148" XRef="55">
+           <TheValue ID="531" LineNr="46" EndLineNr="46" ColNr="17" EndColNr="19">W-I</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheIndex>
+        <TheFromExpr LineNr="46" EndLineNr="46" ColNr="26" EndColNr="26" ID="-149"><IntegerLiteral LineNr="46" EndLineNr="46" ColNr="26" EndColNr="26" ID="149">
+         <TheValue ID="532" LineNr="46" EndLineNr="46" ColNr="26" EndColNr="26">1</TheValue>
+        </IntegerLiteral></TheFromExpr>
+        <TheByExpr LineNr="46" EndLineNr="46" ColNr="31" EndColNr="31" ID="-150"><IntegerLiteral LineNr="46" EndLineNr="46" ColNr="31" EndColNr="31" ID="150">
+         <TheValue ID="533" LineNr="46" EndLineNr="46" ColNr="31" EndColNr="31">1</TheValue>
+        </IntegerLiteral></TheByExpr>
+        <TheUntil LineNr="47" EndLineNr="47" ColNr="15" EndColNr="49" ID="-151"><AtomicComparison LineNr="47" EndLineNr="47" ColNr="15" EndColNr="49" ID="151">
+         <TheLeft LineNr="47" EndLineNr="47" ColNr="15" EndColNr="37" ID="-152" XRef="42"><Designator LineNr="47" EndLineNr="47" ColNr="15" EndColNr="37" ID="152" XRef="42"><TheElements LineNr="47" EndLineNr="47" ColNr="15" EndColNr="37" ID="-153"><DesigElement LineNr="47" EndLineNr="47" ColNr="15" EndColNr="20" ID="153">
+           <TheIdent LineNr="47" EndLineNr="47" ColNr="15" EndColNr="20" ID="-154" XRef="42"><DataIdent LineNr="47" EndLineNr="47" ColNr="15" EndColNr="20" ID="154" XRef="42">
+            <TheValue ID="534" LineNr="47" EndLineNr="47" ColNr="15" EndColNr="20">M-CODE</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement>
+          
+          <DesigElement LineNr="47" EndLineNr="47" ColNr="25" EndColNr="37" ID="155">
+           <TheIdent LineNr="47" EndLineNr="47" ColNr="25" EndColNr="32" ID="-156" XRef="38"><DataIdent LineNr="47" EndLineNr="47" ColNr="25" EndColNr="32" ID="156" XRef="38">
+            <TheValue ID="535" LineNr="47" EndLineNr="47" ColNr="25" EndColNr="32">M-OPTION</TheValue>
+           </DataIdent></TheIdent>
+           <TheArg LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="-157" XRef="55"><Designator LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="157" XRef="55">
+            <TheElements LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="-158"><DesigElement LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="158">
+             <TheIdent LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="-159" XRef="55"><DataIdent LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36" ID="159" XRef="55">
+              <TheValue ID="536" LineNr="47" EndLineNr="47" ColNr="34" EndColNr="36">W-I</TheValue>
+             </DataIdent></TheIdent>
+            </DesigElement></TheElements>
+           </Designator></TheArg>
+          </DesigElement>
+         </TheElements></Designator></TheLeft>
+         <TheRight LineNr="47" EndLineNr="47" ColNr="39" EndColNr="49" ID="-160"><SingleRightSide LineNr="47" EndLineNr="47" ColNr="39" EndColNr="49" ID="160">
+          <TheComparisonOp LineNr="47" EndLineNr="47" ColNr="39" EndColNr="39" ID="-161"><ComparisonOperator LineNr="47" EndLineNr="47" ColNr="39" EndColNr="39" ID="161">
+           <TheOp ID="537" LineNr="47" EndLineNr="47" ColNr="39" EndColNr="39">Equal</TheOp>
+          </ComparisonOperator></TheComparisonOp>
+          <TheArg LineNr="47" EndLineNr="47" ColNr="41" EndColNr="49" ID="-162"><PredefinedLiteral LineNr="47" EndLineNr="47" ColNr="41" EndColNr="49" ID="162">
+           <TheCode ID="538" LineNr="47" EndLineNr="47" ColNr="41" EndColNr="49">LowValueKeyword</TheCode>
+          </PredefinedLiteral></TheArg>
+         </SingleRightSide></TheRight>
+        </AtomicComparison></TheUntil>
+       </VaryingClause></TheClauses>
+      </VaryingClausesList></TheVaryingClausesList>
+      
+      <TheBody LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16" ID="-163"><StatementList LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16" ID="163">
+       <AList LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16" ID="-164"><IfStatement LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16" ID="164"><TheThen ID="557" LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16">TRUE</TheThen><TheEnd ID="558" LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16">TRUE</TheEnd><TheElse ID="559" LineNr="48" EndLineNr="55" ColNr="9" EndColNr="16">TRUE</TheElse>
+        <TheCondition LineNr="48" EndLineNr="48" ColNr="12" EndColNr="44" ID="-165"><AtomicComparison LineNr="48" EndLineNr="48" ColNr="12" EndColNr="44" ID="165">
+         <TheLeft LineNr="48" EndLineNr="48" ColNr="12" EndColNr="34" ID="-166" XRef="42"><Designator LineNr="48" EndLineNr="48" ColNr="12" EndColNr="34" ID="166" XRef="42"><TheElements LineNr="48" EndLineNr="48" ColNr="12" EndColNr="34" ID="-167"><DesigElement LineNr="48" EndLineNr="48" ColNr="12" EndColNr="17" ID="167">
+           <TheIdent LineNr="48" EndLineNr="48" ColNr="12" EndColNr="17" ID="-168" XRef="42"><DataIdent LineNr="48" EndLineNr="48" ColNr="12" EndColNr="17" ID="168" XRef="42">
+            <TheValue ID="540" LineNr="48" EndLineNr="48" ColNr="12" EndColNr="17">M-CODE</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement>
+          
+          <DesigElement LineNr="48" EndLineNr="48" ColNr="22" EndColNr="34" ID="169">
+           <TheIdent LineNr="48" EndLineNr="48" ColNr="22" EndColNr="29" ID="-170" XRef="38"><DataIdent LineNr="48" EndLineNr="48" ColNr="22" EndColNr="29" ID="170" XRef="38">
+            <TheValue ID="541" LineNr="48" EndLineNr="48" ColNr="22" EndColNr="29">M-OPTION</TheValue>
+           </DataIdent></TheIdent>
+           <TheArg LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="-171" XRef="55"><Designator LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="171" XRef="55">
+            <TheElements LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="-172"><DesigElement LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="172">
+             <TheIdent LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="-173" XRef="55"><DataIdent LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33" ID="173" XRef="55">
+              <TheValue ID="542" LineNr="48" EndLineNr="48" ColNr="31" EndColNr="33">W-I</TheValue>
+             </DataIdent></TheIdent>
+            </DesigElement></TheElements>
+           </Designator></TheArg>
+          </DesigElement>
+         </TheElements></Designator></TheLeft>
+         <TheRight LineNr="48" EndLineNr="48" ColNr="37" EndColNr="44" ID="-174"><SingleRightSide LineNr="48" EndLineNr="48" ColNr="37" EndColNr="44" ID="174">
+          <TheComparisonOp LineNr="48" EndLineNr="48" ColNr="37" EndColNr="37" ID="-175"><ComparisonOperator LineNr="48" EndLineNr="48" ColNr="37" EndColNr="37" ID="175">
+           <TheOp ID="543" LineNr="48" EndLineNr="48" ColNr="37" EndColNr="37">Equal</TheOp>
+          </ComparisonOperator></TheComparisonOp>
+          <TheArg LineNr="48" EndLineNr="48" ColNr="39" EndColNr="44" ID="-176"><PredefinedLiteral LineNr="48" EndLineNr="48" ColNr="39" EndColNr="44" ID="176">
+           <TheCode ID="544" LineNr="48" EndLineNr="48" ColNr="39" EndColNr="44">SpaceKeyword</TheCode>
+          </PredefinedLiteral></TheArg>
+         </SingleRightSide></TheRight>
+        </AtomicComparison></TheCondition>
+        <TheStatementList LineNr="49" EndLineNr="49" ColNr="11" EndColNr="26" ID="-177"><StatementList LineNr="49" EndLineNr="49" ColNr="11" EndColNr="26" ID="177">
+         <AList LineNr="49" EndLineNr="49" ColNr="11" EndColNr="26" ID="-178"><PerformStatement LineNr="49" EndLineNr="49" ColNr="11" EndColNr="26" ID="178">
+          <TheCodeRef LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="-179"><SectionCodeRef LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="179">
+           <TheFromLabel LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="-180" XRef="343"><TargetLabel LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="180" XRef="343">
+            <TheTarget LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="-181" XRef="343"><LabelIdent LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26" ID="181" XRef="343">
+             <TheValue ID="545" LineNr="49" EndLineNr="49" ColNr="19" EndColNr="26">NEW-LINE</TheValue>
+            </LabelIdent></TheTarget>
+           </TargetLabel></TheFromLabel>
+          </SectionCodeRef></TheCodeRef>
+         </PerformStatement></AList>
+        </StatementList></TheStatementList>
+        <TheElseStatementList LineNr="51" EndLineNr="54" ColNr="11" EndColNr="41" ID="-182"><StatementList LineNr="51" EndLineNr="54" ColNr="11" EndColNr="41" ID="182"><AList LineNr="51" EndLineNr="54" ColNr="11" EndColNr="41" ID="-183"><DisplayStatement LineNr="51" EndLineNr="53" ColNr="11" EndColNr="30" ID="183"><TheArg LineNr="51" EndLineNr="53" ColNr="19" EndColNr="30" ID="-184"><DisplayArg LineNr="51" EndLineNr="51" ColNr="19" EndColNr="27" ID="184">
+           <TheCode ID="546" LineNr="51" EndLineNr="51" ColNr="19" EndColNr="27">HighlightKeyword</TheCode>
+          </DisplayArg>
+          
+          <StringLiteral LineNr="51" EndLineNr="51" ColNr="29" EndColNr="41" ID="185">
+           <TheValue ID="547" LineNr="51" EndLineNr="51" ColNr="29" EndColNr="41">"          ["</TheValue>
+          </StringLiteral>
+          <Designator LineNr="52" EndLineNr="52" ColNr="19" EndColNr="41" ID="186" XRef="42"><TheElements LineNr="52" EndLineNr="52" ColNr="19" EndColNr="41" ID="-187"><DesigElement LineNr="52" EndLineNr="52" ColNr="19" EndColNr="24" ID="187">
+            <TheIdent LineNr="52" EndLineNr="52" ColNr="19" EndColNr="24" ID="-188" XRef="42"><DataIdent LineNr="52" EndLineNr="52" ColNr="19" EndColNr="24" ID="188" XRef="42">
+             <TheValue ID="548" LineNr="52" EndLineNr="52" ColNr="19" EndColNr="24">M-CODE</TheValue>
+            </DataIdent></TheIdent>
+           </DesigElement>
+           
+           <DesigElement LineNr="52" EndLineNr="52" ColNr="29" EndColNr="41" ID="189">
+            <TheIdent LineNr="52" EndLineNr="52" ColNr="29" EndColNr="36" ID="-190" XRef="38"><DataIdent LineNr="52" EndLineNr="52" ColNr="29" EndColNr="36" ID="190" XRef="38">
+             <TheValue ID="549" LineNr="52" EndLineNr="52" ColNr="29" EndColNr="36">M-OPTION</TheValue>
+            </DataIdent></TheIdent>
+            <TheArg LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="-191" XRef="55"><Designator LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="191" XRef="55">
+             <TheElements LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="-192"><DesigElement LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="192">
+              <TheIdent LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="-193" XRef="55"><DataIdent LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40" ID="193" XRef="55">
+               <TheValue ID="550" LineNr="52" EndLineNr="52" ColNr="38" EndColNr="40">W-I</TheValue>
+              </DataIdent></TheIdent>
+             </DesigElement></TheElements>
+            </Designator></TheArg>
+           </DesigElement>
+          </TheElements></Designator>
+          <StringLiteral LineNr="52" EndLineNr="52" ColNr="43" EndColNr="46" ID="194">
+           <TheValue ID="551" LineNr="52" EndLineNr="52" ColNr="43" EndColNr="46">"] "</TheValue>
+          </StringLiteral>
+          <DisplayArg LineNr="53" EndLineNr="53" ColNr="19" EndColNr="30" ID="195">
+           <TheCode ID="552" LineNr="53" EndLineNr="53" ColNr="19" EndColNr="30">AdvancingKeyword</TheCode>
+           <TheNo ID="553" LineNr="53" EndLineNr="53" ColNr="19" EndColNr="30">TRUE</TheNo>
+          </DisplayArg>
+         </TheArg></DisplayStatement>
+         
+         <DisplayStatement LineNr="54" EndLineNr="54" ColNr="11" EndColNr="41" ID="196">
+          <TheArg LineNr="54" EndLineNr="54" ColNr="19" EndColNr="41" ID="-197" XRef="45"><Designator LineNr="54" EndLineNr="54" ColNr="19" EndColNr="41" ID="197" XRef="45"><TheElements LineNr="54" EndLineNr="54" ColNr="19" EndColNr="41" ID="-198"><DesigElement LineNr="54" EndLineNr="54" ColNr="19" EndColNr="24" ID="198">
+            <TheIdent LineNr="54" EndLineNr="54" ColNr="19" EndColNr="24" ID="-199" XRef="45"><DataIdent LineNr="54" EndLineNr="54" ColNr="19" EndColNr="24" ID="199" XRef="45">
+             <TheValue ID="554" LineNr="54" EndLineNr="54" ColNr="19" EndColNr="24">M-TEXT</TheValue>
+            </DataIdent></TheIdent>
+           </DesigElement>
+           
+           <DesigElement LineNr="54" EndLineNr="54" ColNr="29" EndColNr="41" ID="200">
+            <TheIdent LineNr="54" EndLineNr="54" ColNr="29" EndColNr="36" ID="-201" XRef="38"><DataIdent LineNr="54" EndLineNr="54" ColNr="29" EndColNr="36" ID="201" XRef="38">
+             <TheValue ID="555" LineNr="54" EndLineNr="54" ColNr="29" EndColNr="36">M-OPTION</TheValue>
+            </DataIdent></TheIdent>
+            <TheArg LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="-202" XRef="55"><Designator LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="202" XRef="55">
+             <TheElements LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="-203"><DesigElement LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="203">
+              <TheIdent LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="-204" XRef="55"><DataIdent LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40" ID="204" XRef="55">
+               <TheValue ID="556" LineNr="54" EndLineNr="54" ColNr="38" EndColNr="40">W-I</TheValue>
+              </DataIdent></TheIdent>
+             </DesigElement></TheElements>
+            </Designator></TheArg>
+           </DesigElement>
+          </TheElements></Designator></TheArg>
+         </DisplayStatement>
+        </AList></StatementList></TheElseStatementList>
+        
+        
+        
+       </IfStatement></AList>
+      </StatementList></TheBody>
+      
+     </PerformStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="57" EndLineNr="64" ColNr="2" EndColNr="14" ID="205"><TheDot ID="579" LineNr="57" EndLineNr="64" ColNr="2" EndColNr="14">TRUE</TheDot>
+    <ALabelIdent LineNr="57" EndLineNr="57" ColNr="2" EndColNr="15" ID="-206"><LabelIdent LineNr="57" EndLineNr="57" ColNr="2" EndColNr="15" ID="206">
+     <TheValue ID="562" LineNr="57" EndLineNr="57" ColNr="2" EndColNr="15">ASK-FOR-CHOICE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="58" EndLineNr="64" ColNr="6" EndColNr="14" ID="-207"><PeriodStatementList LineNr="58" EndLineNr="64" ColNr="6" EndColNr="14" ID="207"><AList LineNr="58" EndLineNr="64" ColNr="6" EndColNr="14" ID="-208"><MoveStatement LineNr="58" EndLineNr="58" ColNr="6" EndColNr="39" ID="208">
+      <TheExpr LineNr="58" EndLineNr="58" ColNr="11" EndColNr="24" ID="-209"><StringLiteral LineNr="58" EndLineNr="58" ColNr="11" EndColNr="24" ID="209">
+       <TheValue ID="563" LineNr="58" EndLineNr="58" ColNr="11" EndColNr="24">"Your choice:"</TheValue>
+      </StringLiteral></TheExpr>
+      <TheTargets LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="-210" XRef="70"><Designator LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="210" XRef="70">
+       <TheElements LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="-211"><DesigElement LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="211">
+        <TheIdent LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="-212" XRef="70"><DataIdent LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38" ID="212" XRef="70">
+         <TheValue ID="564" LineNr="58" EndLineNr="58" ColNr="29" EndColNr="38">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     
+     <PerformStatement LineNr="59" EndLineNr="59" ColNr="6" EndColNr="33" ID="213">
+      <TheCodeRef LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="-214"><SectionCodeRef LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="214">
+       <TheFromLabel LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="-215" XRef="415"><TargetLabel LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="215" XRef="415">
+        <TheTarget LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="-216" XRef="415"><LabelIdent LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32" ID="216" XRef="415">
+         <TheValue ID="565" LineNr="59" EndLineNr="59" ColNr="14" EndColNr="32">DISPLAY-STATUS-LINE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+     <DisplayStatement LineNr="60" EndLineNr="60" ColNr="6" EndColNr="30" ID="217"><TheArg LineNr="60" EndLineNr="60" ColNr="14" EndColNr="29" ID="-218"><StringLiteral LineNr="60" EndLineNr="60" ColNr="14" EndColNr="16" ID="218">
+       <TheValue ID="566" LineNr="60" EndLineNr="60" ColNr="14" EndColNr="16">" "</TheValue>
+      </StringLiteral>
+      
+      <DisplayArg LineNr="60" EndLineNr="60" ColNr="18" EndColNr="29" ID="219">
+       <TheCode ID="567" LineNr="60" EndLineNr="60" ColNr="18" EndColNr="29">AdvancingKeyword</TheCode>
+       <TheNo ID="568" LineNr="60" EndLineNr="60" ColNr="18" EndColNr="29">TRUE</TheNo>
+      </DisplayArg>
+     </TheArg></DisplayStatement>
+     <AcceptStatement LineNr="61" EndLineNr="61" ColNr="6" EndColNr="18" ID="220">
+      <TheTarget LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="-221" XRef="59"><Designator LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="221" XRef="59">
+       <TheElements LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="-222"><DesigElement LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="222">
+        <TheIdent LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="-223" XRef="59"><DataIdent LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17" ID="223" XRef="59">
+         <TheValue ID="569" LineNr="61" EndLineNr="61" ColNr="13" EndColNr="17">W-SEL</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTarget>
+     </AcceptStatement>
+     <IfStatement LineNr="62" EndLineNr="64" ColNr="6" EndColNr="14" ID="224"><TheThen ID="577" LineNr="62" EndLineNr="64" ColNr="6" EndColNr="14">TRUE</TheThen><TheEnd ID="578" LineNr="62" EndLineNr="64" ColNr="6" EndColNr="14">TRUE</TheEnd>
+      <TheCondition LineNr="62" EndLineNr="62" ColNr="9" EndColNr="26" ID="-225"><AtomicComparison LineNr="62" EndLineNr="62" ColNr="9" EndColNr="26" ID="225">
+       <TheLeft LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="-226" XRef="59"><Designator LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="226" XRef="59">
+        <TheElements LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="-227"><DesigElement LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="227">
+         <TheIdent LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="-228" XRef="59"><DataIdent LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13" ID="228" XRef="59">
+          <TheValue ID="570" LineNr="62" EndLineNr="62" ColNr="9" EndColNr="13">W-SEL</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheLeft>
+       <TheRight LineNr="62" EndLineNr="62" ColNr="15" EndColNr="26" ID="-229"><SingleRightSide LineNr="62" EndLineNr="62" ColNr="15" EndColNr="26" ID="229">
+        <TheComparisonOp LineNr="62" EndLineNr="62" ColNr="15" EndColNr="19" ID="-230"><ComparisonOperator LineNr="62" EndLineNr="62" ColNr="15" EndColNr="19" ID="230">
+         <TheOp ID="571" LineNr="62" EndLineNr="62" ColNr="15" EndColNr="19">Equal</TheOp>
+         <TheNegated ID="572" LineNr="62" EndLineNr="62" ColNr="15" EndColNr="19">TRUE</TheNegated>
+        </ComparisonOperator></TheComparisonOp>
+        <TheArg LineNr="62" EndLineNr="62" ColNr="21" EndColNr="26" ID="-231"><PredefinedLiteral LineNr="62" EndLineNr="62" ColNr="21" EndColNr="26" ID="231">
+         <TheCode ID="573" LineNr="62" EndLineNr="62" ColNr="21" EndColNr="26">SpaceKeyword</TheCode>
+        </PredefinedLiteral></TheArg>
+       </SingleRightSide></TheRight>
+      </AtomicComparison></TheCondition>
+      <TheStatementList LineNr="63" EndLineNr="63" ColNr="8" EndColNr="53" ID="-232"><StatementList LineNr="63" EndLineNr="63" ColNr="8" EndColNr="53" ID="232">
+       <AList LineNr="63" EndLineNr="63" ColNr="8" EndColNr="53" ID="-233"><MoveStatement LineNr="63" EndLineNr="63" ColNr="8" EndColNr="53" ID="233">
+        <TheExpr LineNr="63" EndLineNr="63" ColNr="13" EndColNr="38" ID="-234"><FunctionCallExpression LineNr="63" EndLineNr="63" ColNr="13" EndColNr="38" ID="234">
+         <TheArg LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="-236" XRef="59"><Designator LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="236" XRef="59">
+          <TheElements LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="-237"><DesigElement LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="237">
+           <TheIdent LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="-238" XRef="59"><DataIdent LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37" ID="238" XRef="59">
+            <TheValue ID="574" LineNr="63" EndLineNr="63" ColNr="33" EndColNr="37">W-SEL</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheArg>
+         <TheFunctionName LineNr="63" EndLineNr="63" ColNr="22" EndColNr="31" ID="-235"><AnonIdent LineNr="63" EndLineNr="63" ColNr="22" EndColNr="31" ID="235">
+          <TheValue ID="575" LineNr="63" EndLineNr="63" ColNr="22" EndColNr="31">UPPER-CASE</TheValue>
+         </AnonIdent></TheFunctionName>
+        </FunctionCallExpression></TheExpr>
+        <TheTargets LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="-239" XRef="32"><Designator LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="239" XRef="32">
+         <TheElements LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="-240"><DesigElement LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="240">
+          <TheIdent LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="-241" XRef="32"><DataIdent LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53" ID="241" XRef="32">
+           <TheValue ID="576" LineNr="63" EndLineNr="63" ColNr="43" EndColNr="53">M-SELECTION</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheTargets>
+       </MoveStatement></AList>
+      </StatementList></TheStatementList>
+      
+      
+     </IfStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="68" EndLineNr="69" ColNr="2" EndColNr="25" ID="242"><TheDot ID="583" LineNr="68" EndLineNr="69" ColNr="2" EndColNr="25">TRUE</TheDot>
+    <ALabelIdent LineNr="68" EndLineNr="68" ColNr="2" EndColNr="4" ID="-243"><LabelIdent LineNr="68" EndLineNr="68" ColNr="2" EndColNr="4" ID="243">
+     <TheValue ID="580" LineNr="68" EndLineNr="68" ColNr="2" EndColNr="4">CLS</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="69" EndLineNr="69" ColNr="5" EndColNr="25" ID="-244"><PeriodStatementList LineNr="69" EndLineNr="69" ColNr="5" EndColNr="25" ID="244">
+     <AList LineNr="69" EndLineNr="69" ColNr="5" EndColNr="25" ID="-245"><DisplayStatement LineNr="69" EndLineNr="69" ColNr="5" EndColNr="25" ID="245">
+      <TheArg LineNr="69" EndLineNr="69" ColNr="13" EndColNr="24" ID="-246"><DisplayArg LineNr="69" EndLineNr="69" ColNr="13" EndColNr="24" ID="246">
+       <TheCode ID="581" LineNr="69" EndLineNr="69" ColNr="13" EndColNr="24">EraseKeyword</TheCode>
+       <TheErase ID="582" LineNr="69" EndLineNr="69" ColNr="13" EndColNr="24">ScreenKeyword</TheErase>
+      </DisplayArg></TheArg>
+     </DisplayStatement></AList>
+    </PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="70" EndLineNr="75" ColNr="2" EndColNr="53" ID="247"><TheDot ID="603" LineNr="70" EndLineNr="75" ColNr="2" EndColNr="53">TRUE</TheDot>
+    <ALabelIdent LineNr="70" EndLineNr="70" ColNr="2" EndColNr="16" ID="-248"><LabelIdent LineNr="70" EndLineNr="70" ColNr="2" EndColNr="16" ID="248">
+     <TheValue ID="584" LineNr="70" EndLineNr="70" ColNr="2" EndColNr="16">DISPLAY-ERR-MSG</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="71" EndLineNr="75" ColNr="5" EndColNr="53" ID="-249"><PeriodStatementList LineNr="71" EndLineNr="75" ColNr="5" EndColNr="53" ID="249"><AList LineNr="71" EndLineNr="75" ColNr="5" EndColNr="53" ID="-250"><DisplayStatement LineNr="71" EndLineNr="72" ColNr="5" EndColNr="30" ID="250"><TheArg LineNr="71" EndLineNr="72" ColNr="13" EndColNr="29" ID="-251"><DisplayArg LineNr="71" EndLineNr="71" ColNr="13" EndColNr="22" ID="251"><TheCode ID="585" LineNr="71" EndLineNr="71" ColNr="13" EndColNr="22">LineKeyword</TheCode>
+       
+       <ThePosition LineNr="71" EndLineNr="71" ColNr="21" EndColNr="22" ID="-252"><IntegerLiteral LineNr="71" EndLineNr="71" ColNr="21" EndColNr="22" ID="252">
+        <TheValue ID="586" LineNr="71" EndLineNr="71" ColNr="21" EndColNr="22">24</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      
+      <DisplayArg LineNr="71" EndLineNr="71" ColNr="24" EndColNr="28" ID="253"><TheCode ID="587" LineNr="71" EndLineNr="71" ColNr="24" EndColNr="28">ColKeyword</TheCode>
+       
+       <ThePosition LineNr="71" EndLineNr="71" ColNr="28" EndColNr="28" ID="-254"><IntegerLiteral LineNr="71" EndLineNr="71" ColNr="28" EndColNr="28" ID="254">
+        <TheValue ID="588" LineNr="71" EndLineNr="71" ColNr="28" EndColNr="28">1</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      <DisplayArg LineNr="71" EndLineNr="71" ColNr="30" EndColNr="36" ID="255">
+       <TheCode ID="589" LineNr="71" EndLineNr="71" ColNr="30" EndColNr="36">ReverseKeyword</TheCode>
+      </DisplayArg>
+      <Designator LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47" ID="256" XRef="70">
+       <TheElements LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47" ID="-257"><DesigElement LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47" ID="257">
+        <TheIdent LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47" ID="-258" XRef="70"><DataIdent LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47" ID="258" XRef="70">
+         <TheValue ID="590" LineNr="71" EndLineNr="71" ColNr="38" EndColNr="47">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator>
+      <DisplayArg LineNr="72" EndLineNr="72" ColNr="18" EndColNr="29" ID="259">
+       <TheCode ID="591" LineNr="72" EndLineNr="72" ColNr="18" EndColNr="29">AdvancingKeyword</TheCode>
+       <TheNo ID="592" LineNr="72" EndLineNr="72" ColNr="18" EndColNr="29">TRUE</TheNo>
+      </DisplayArg>
+     </TheArg></DisplayStatement>
+     
+     <AcceptStatement LineNr="73" EndLineNr="73" ColNr="5" EndColNr="22" ID="260">
+      <TheTarget LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="-261" XRef="67"><Designator LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="261" XRef="67">
+       <TheElements LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="-262"><DesigElement LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="262">
+        <TheIdent LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="-263" XRef="67"><DataIdent LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21" ID="263" XRef="67">
+         <TheValue ID="593" LineNr="73" EndLineNr="73" ColNr="12" EndColNr="21">SCREEN-KEY</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTarget>
+     </AcceptStatement>
+     <MoveStatement LineNr="74" EndLineNr="74" ColNr="5" EndColNr="30" ID="264">
+      <TheExpr LineNr="74" EndLineNr="74" ColNr="10" EndColNr="15" ID="-265"><PredefinedLiteral LineNr="74" EndLineNr="74" ColNr="10" EndColNr="15" ID="265">
+       <TheCode ID="594" LineNr="74" EndLineNr="74" ColNr="10" EndColNr="15">SpaceKeyword</TheCode>
+      </PredefinedLiteral></TheExpr>
+      <TheTargets LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="-266" XRef="70"><Designator LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="266" XRef="70">
+       <TheElements LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="-267"><DesigElement LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="267">
+        <TheIdent LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="-268" XRef="70"><DataIdent LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29" ID="268" XRef="70">
+         <TheValue ID="595" LineNr="74" EndLineNr="74" ColNr="20" EndColNr="29">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     <DisplayStatement LineNr="75" EndLineNr="75" ColNr="5" EndColNr="53" ID="269"><TheArg LineNr="75" EndLineNr="75" ColNr="13" EndColNr="52" ID="-270"><DisplayArg LineNr="75" EndLineNr="75" ColNr="13" EndColNr="22" ID="270"><TheCode ID="596" LineNr="75" EndLineNr="75" ColNr="13" EndColNr="22">LineKeyword</TheCode>
+       
+       <ThePosition LineNr="75" EndLineNr="75" ColNr="21" EndColNr="22" ID="-271"><IntegerLiteral LineNr="75" EndLineNr="75" ColNr="21" EndColNr="22" ID="271">
+        <TheValue ID="597" LineNr="75" EndLineNr="75" ColNr="21" EndColNr="22">24</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      
+      <DisplayArg LineNr="75" EndLineNr="75" ColNr="24" EndColNr="28" ID="272"><TheCode ID="598" LineNr="75" EndLineNr="75" ColNr="24" EndColNr="28">ColKeyword</TheCode>
+       
+       <ThePosition LineNr="75" EndLineNr="75" ColNr="28" EndColNr="28" ID="-273"><IntegerLiteral LineNr="75" EndLineNr="75" ColNr="28" EndColNr="28" ID="273">
+        <TheValue ID="599" LineNr="75" EndLineNr="75" ColNr="28" EndColNr="28">1</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      <Designator LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39" ID="274" XRef="70">
+       <TheElements LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39" ID="-275"><DesigElement LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39" ID="275">
+        <TheIdent LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39" ID="-276" XRef="70"><DataIdent LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39" ID="276" XRef="70">
+         <TheValue ID="600" LineNr="75" EndLineNr="75" ColNr="30" EndColNr="39">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator>
+      <DisplayArg LineNr="75" EndLineNr="75" ColNr="41" EndColNr="52" ID="277">
+       <TheCode ID="601" LineNr="75" EndLineNr="75" ColNr="41" EndColNr="52">AdvancingKeyword</TheCode>
+       <TheNo ID="602" LineNr="75" EndLineNr="75" ColNr="41" EndColNr="52">TRUE</TheNo>
+      </DisplayArg>
+     </TheArg></DisplayStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="76" EndLineNr="82" ColNr="2" EndColNr="30" ID="278"><TheDot ID="624" LineNr="76" EndLineNr="82" ColNr="2" EndColNr="30">TRUE</TheDot>
+    <ALabelIdent LineNr="76" EndLineNr="76" ColNr="2" EndColNr="14" ID="-279"><LabelIdent LineNr="76" EndLineNr="76" ColNr="2" EndColNr="14" ID="279">
+     <TheValue ID="604" LineNr="76" EndLineNr="76" ColNr="2" EndColNr="14">DISPLAY-TITLE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="77" EndLineNr="82" ColNr="5" EndColNr="30" ID="-280"><PeriodStatementList LineNr="77" EndLineNr="82" ColNr="5" EndColNr="30" ID="280"><AList LineNr="77" EndLineNr="82" ColNr="5" EndColNr="30" ID="-281"><ComputeStatement LineNr="77" EndLineNr="78" ColNr="5" EndColNr="46" ID="281">
+      <TheTargets LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="-282"><ArithDesignator LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="282">
+       <TheDesig LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="-283" XRef="76"><Designator LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="283" XRef="76">
+        <TheElements LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="-284"><DesigElement LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="284">
+         <TheIdent LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="-285" XRef="76"><DataIdent LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22" ID="285" XRef="76">
+          <TheValue ID="605" LineNr="77" EndLineNr="77" ColNr="13" EndColNr="22">SCREEN-LEN</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheDesig>
+      </ArithDesignator></TheTargets>
+      <TheExpr LineNr="77" EndLineNr="78" ColNr="26" EndColNr="45" ID="-286"><FunctionCallExpression LineNr="77" EndLineNr="78" ColNr="26" EndColNr="45" ID="286"><TheKeyword ID="608" LineNr="77" EndLineNr="78" ColNr="26" EndColNr="45">LengthKeyword</TheKeyword>
+       <TheArg LineNr="78" EndLineNr="78" ColNr="20" EndColNr="44" ID="-287"><FunctionCallExpression LineNr="78" EndLineNr="78" ColNr="20" EndColNr="44" ID="287">
+        <TheArg LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="-289" XRef="70"><Designator LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="289" XRef="70">
+         <TheElements LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="-290"><DesigElement LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="290">
+          <TheIdent LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="-291" XRef="70"><DataIdent LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43" ID="291" XRef="70">
+           <TheValue ID="606" LineNr="78" EndLineNr="78" ColNr="34" EndColNr="43">SCREEN-MSG</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheArg>
+        <TheFunctionName LineNr="78" EndLineNr="78" ColNr="29" EndColNr="32" ID="-288"><AnonIdent LineNr="78" EndLineNr="78" ColNr="29" EndColNr="32" ID="288">
+         <TheValue ID="607" LineNr="78" EndLineNr="78" ColNr="29" EndColNr="32">TRIM</TheValue>
+        </AnonIdent></TheFunctionName>
+       </FunctionCallExpression></TheArg>
+       
+      </FunctionCallExpression></TheExpr>
+     </ComputeStatement>
+     
+     <ComputeStatement LineNr="79" EndLineNr="79" ColNr="5" EndColNr="45" ID="292">
+      <TheTargets LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="-293"><ArithDesignator LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="293">
+       <TheDesig LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="-294" XRef="76"><Designator LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="294" XRef="76">
+        <TheElements LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="-295"><DesigElement LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="295">
+         <TheIdent LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="-296" XRef="76"><DataIdent LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22" ID="296" XRef="76">
+          <TheValue ID="609" LineNr="79" EndLineNr="79" ColNr="13" EndColNr="22">SCREEN-LEN</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheDesig>
+      </ArithDesignator></TheTargets>
+      <TheExpr LineNr="79" EndLineNr="79" ColNr="26" EndColNr="44" ID="-297"><BinaryExpression LineNr="79" EndLineNr="79" ColNr="26" EndColNr="44" ID="297"><TheOp ID="614" LineNr="79" EndLineNr="79" ColNr="26" EndColNr="44">Slash</TheOp>
+       <TheLeft LineNr="79" EndLineNr="79" ColNr="27" EndColNr="41" ID="-298"><BinaryExpression LineNr="79" EndLineNr="79" ColNr="27" EndColNr="41" ID="298"><TheOp ID="612" LineNr="79" EndLineNr="79" ColNr="27" EndColNr="41">Minus</TheOp>
+        <TheLeft LineNr="79" EndLineNr="79" ColNr="27" EndColNr="28" ID="-299"><IntegerLiteral LineNr="79" EndLineNr="79" ColNr="27" EndColNr="28" ID="299">
+         <TheValue ID="610" LineNr="79" EndLineNr="79" ColNr="27" EndColNr="28">78</TheValue>
+        </IntegerLiteral></TheLeft>
+        <TheRight LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="-300" XRef="76"><Designator LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="300" XRef="76">
+         <TheElements LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="-301"><DesigElement LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="301">
+          <TheIdent LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="-302" XRef="76"><DataIdent LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41" ID="302" XRef="76">
+           <TheValue ID="611" LineNr="79" EndLineNr="79" ColNr="32" EndColNr="41">SCREEN-LEN</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheRight>
+        
+       </BinaryExpression></TheLeft>
+       <TheRight LineNr="79" EndLineNr="79" ColNr="44" EndColNr="44" ID="-303"><IntegerLiteral LineNr="79" EndLineNr="79" ColNr="44" EndColNr="44" ID="303">
+        <TheValue ID="613" LineNr="79" EndLineNr="79" ColNr="44" EndColNr="44">2</TheValue>
+       </IntegerLiteral></TheRight>
+       
+      </BinaryExpression></TheExpr>
+     </ComputeStatement>
+     <DisplayStatement LineNr="80" EndLineNr="82" ColNr="5" EndColNr="30" ID="304"><TheArg LineNr="80" EndLineNr="82" ColNr="13" EndColNr="29" ID="-305"><DisplayArg LineNr="80" EndLineNr="80" ColNr="13" EndColNr="21" ID="305"><TheCode ID="615" LineNr="80" EndLineNr="80" ColNr="13" EndColNr="21">LineKeyword</TheCode>
+       
+       <ThePosition LineNr="80" EndLineNr="80" ColNr="21" EndColNr="21" ID="-306"><IntegerLiteral LineNr="80" EndLineNr="80" ColNr="21" EndColNr="21" ID="306">
+        <TheValue ID="616" LineNr="80" EndLineNr="80" ColNr="21" EndColNr="21">1</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      
+      <DisplayArg LineNr="80" EndLineNr="80" ColNr="23" EndColNr="36" ID="307"><TheCode ID="617" LineNr="80" EndLineNr="80" ColNr="23" EndColNr="36">ColKeyword</TheCode>
+       
+       <ThePosition LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="-308" XRef="76"><Designator LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="308" XRef="76">
+        <TheElements LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="-309"><DesigElement LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="309">
+         <TheIdent LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="-310" XRef="76"><DataIdent LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36" ID="310" XRef="76">
+          <TheValue ID="618" LineNr="80" EndLineNr="80" ColNr="27" EndColNr="36">SCREEN-LEN</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></ThePosition>
+      </DisplayArg>
+      <DisplayArg LineNr="80" EndLineNr="80" ColNr="38" EndColNr="44" ID="311">
+       <TheCode ID="619" LineNr="80" EndLineNr="80" ColNr="38" EndColNr="44">ReverseKeyword</TheCode>
+      </DisplayArg>
+      <FunctionCallExpression LineNr="81" EndLineNr="81" ColNr="17" EndColNr="41" ID="312">
+       <TheArg LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="-314" XRef="70"><Designator LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="314" XRef="70">
+        <TheElements LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="-315"><DesigElement LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="315">
+         <TheIdent LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="-316" XRef="70"><DataIdent LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40" ID="316" XRef="70">
+          <TheValue ID="620" LineNr="81" EndLineNr="81" ColNr="31" EndColNr="40">SCREEN-MSG</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheArg>
+       <TheFunctionName LineNr="81" EndLineNr="81" ColNr="26" EndColNr="29" ID="-313"><AnonIdent LineNr="81" EndLineNr="81" ColNr="26" EndColNr="29" ID="313">
+        <TheValue ID="621" LineNr="81" EndLineNr="81" ColNr="26" EndColNr="29">TRIM</TheValue>
+       </AnonIdent></TheFunctionName>
+      </FunctionCallExpression>
+      <DisplayArg LineNr="82" EndLineNr="82" ColNr="18" EndColNr="29" ID="317">
+       <TheCode ID="622" LineNr="82" EndLineNr="82" ColNr="18" EndColNr="29">AdvancingKeyword</TheCode>
+       <TheNo ID="623" LineNr="82" EndLineNr="82" ColNr="18" EndColNr="29">TRUE</TheNo>
+      </DisplayArg>
+     </TheArg></DisplayStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="83" EndLineNr="85" ColNr="2" EndColNr="22" ID="318"><TheDot ID="628" LineNr="83" EndLineNr="85" ColNr="2" EndColNr="22">TRUE</TheDot>
+    <ALabelIdent LineNr="83" EndLineNr="83" ColNr="2" EndColNr="11" ID="-319"><LabelIdent LineNr="83" EndLineNr="83" ColNr="2" EndColNr="11" ID="319">
+     <TheValue ID="625" LineNr="83" EndLineNr="83" ColNr="2" EndColNr="11">TO-BE-DONE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="84" EndLineNr="85" ColNr="5" EndColNr="22" ID="-320"><PeriodStatementList LineNr="84" EndLineNr="85" ColNr="5" EndColNr="22" ID="320"><AList LineNr="84" EndLineNr="85" ColNr="5" EndColNr="22" ID="-321"><DisplayStatement LineNr="84" EndLineNr="84" ColNr="5" EndColNr="28" ID="321">
+      <TheArg LineNr="84" EndLineNr="84" ColNr="13" EndColNr="27" ID="-322"><StringLiteral LineNr="84" EndLineNr="84" ColNr="13" EndColNr="27" ID="322">
+       <TheValue ID="626" LineNr="84" EndLineNr="84" ColNr="13" EndColNr="27">"To be done..."</TheValue>
+      </StringLiteral></TheArg>
+     </DisplayStatement>
+     
+     <AcceptStatement LineNr="85" EndLineNr="85" ColNr="5" EndColNr="22" ID="323">
+      <TheTarget LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="-324" XRef="67"><Designator LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="324" XRef="67">
+       <TheElements LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="-325"><DesigElement LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="325">
+        <TheIdent LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="-326" XRef="67"><DataIdent LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21" ID="326" XRef="67">
+         <TheValue ID="627" LineNr="85" EndLineNr="85" ColNr="12" EndColNr="21">SCREEN-KEY</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTarget>
+     </AcceptStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="86" EndLineNr="89" ColNr="2" EndColNr="22" ID="327"><TheDot ID="634" LineNr="86" EndLineNr="89" ColNr="2" EndColNr="22">TRUE</TheDot>
+    <ALabelIdent LineNr="86" EndLineNr="86" ColNr="2" EndColNr="9" ID="-328"><LabelIdent LineNr="86" EndLineNr="86" ColNr="2" EndColNr="9" ID="328">
+     <TheValue ID="629" LineNr="86" EndLineNr="86" ColNr="2" EndColNr="9">READ-KEY</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="87" EndLineNr="89" ColNr="5" EndColNr="22" ID="-329"><PeriodStatementList LineNr="87" EndLineNr="89" ColNr="5" EndColNr="22" ID="329"><AList LineNr="87" EndLineNr="89" ColNr="5" EndColNr="22" ID="-330"><MoveStatement LineNr="87" EndLineNr="87" ColNr="5" EndColNr="40" ID="330">
+      <TheExpr LineNr="87" EndLineNr="87" ColNr="10" EndColNr="25" ID="-331"><StringLiteral LineNr="87" EndLineNr="87" ColNr="10" EndColNr="25" ID="331">
+       <TheValue ID="630" LineNr="87" EndLineNr="87" ColNr="10" EndColNr="25">"Press enter..."</TheValue>
+      </StringLiteral></TheExpr>
+      <TheTargets LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="-332" XRef="70"><Designator LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="332" XRef="70">
+       <TheElements LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="-333"><DesigElement LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="333">
+        <TheIdent LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="-334" XRef="70"><DataIdent LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39" ID="334" XRef="70">
+         <TheValue ID="631" LineNr="87" EndLineNr="87" ColNr="30" EndColNr="39">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     
+     <PerformStatement LineNr="88" EndLineNr="88" ColNr="5" EndColNr="32" ID="335">
+      <TheCodeRef LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="-336"><SectionCodeRef LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="336">
+       <TheFromLabel LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="-337" XRef="415"><TargetLabel LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="337" XRef="415">
+        <TheTarget LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="-338" XRef="415"><LabelIdent LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31" ID="338" XRef="415">
+         <TheValue ID="632" LineNr="88" EndLineNr="88" ColNr="13" EndColNr="31">DISPLAY-STATUS-LINE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+     <AcceptStatement LineNr="89" EndLineNr="89" ColNr="5" EndColNr="22" ID="339">
+      <TheTarget LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="-340" XRef="67"><Designator LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="340" XRef="67">
+       <TheElements LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="-341"><DesigElement LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="341">
+        <TheIdent LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="-342" XRef="67"><DataIdent LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21" ID="342" XRef="67">
+         <TheValue ID="633" LineNr="89" EndLineNr="89" ColNr="12" EndColNr="21">SCREEN-KEY</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTarget>
+     </AcceptStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="90" EndLineNr="91" ColNr="2" EndColNr="16" ID="343"><TheDot ID="637" LineNr="90" EndLineNr="91" ColNr="2" EndColNr="16">TRUE</TheDot>
+    <ALabelIdent LineNr="90" EndLineNr="90" ColNr="2" EndColNr="9" ID="-344"><LabelIdent LineNr="90" EndLineNr="90" ColNr="2" EndColNr="9" ID="344">
+     <TheValue ID="635" LineNr="90" EndLineNr="90" ColNr="2" EndColNr="9">NEW-LINE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="91" EndLineNr="91" ColNr="5" EndColNr="16" ID="-345"><PeriodStatementList LineNr="91" EndLineNr="91" ColNr="5" EndColNr="16" ID="345">
+     <AList LineNr="91" EndLineNr="91" ColNr="5" EndColNr="16" ID="-346"><DisplayStatement LineNr="91" EndLineNr="91" ColNr="5" EndColNr="16" ID="346">
+      <TheArg LineNr="91" EndLineNr="91" ColNr="13" EndColNr="15" ID="-347"><StringLiteral LineNr="91" EndLineNr="91" ColNr="13" EndColNr="15" ID="347">
+       <TheValue ID="636" LineNr="91" EndLineNr="91" ColNr="13" EndColNr="15">" "</TheValue>
+      </StringLiteral></TheArg>
+     </DisplayStatement></AList>
+    </PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="92" EndLineNr="104" ColNr="2" EndColNr="13" ID="348"><TheDot ID="666" LineNr="92" EndLineNr="104" ColNr="2" EndColNr="13">TRUE</TheDot>
+    <ALabelIdent LineNr="92" EndLineNr="92" ColNr="2" EndColNr="21" ID="-349"><LabelIdent LineNr="92" EndLineNr="92" ColNr="2" EndColNr="21" ID="349">
+     <TheValue ID="638" LineNr="92" EndLineNr="92" ColNr="2" EndColNr="21">ASK-FOR-CONFIRMATION</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="93" EndLineNr="104" ColNr="5" EndColNr="13" ID="-350"><PeriodStatementList LineNr="93" EndLineNr="104" ColNr="5" EndColNr="13" ID="350"><AList LineNr="93" EndLineNr="104" ColNr="5" EndColNr="13" ID="-351"><ComputeStatement LineNr="93" EndLineNr="94" ColNr="5" EndColNr="54" ID="351">
+      <TheTargets LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="-352"><ArithDesignator LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="352">
+       <TheDesig LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="-353" XRef="76"><Designator LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="353" XRef="76">
+        <TheElements LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="-354"><DesigElement LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="354">
+         <TheIdent LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="-355" XRef="76"><DataIdent LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22" ID="355" XRef="76">
+          <TheValue ID="639" LineNr="93" EndLineNr="93" ColNr="13" EndColNr="22">SCREEN-LEN</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheDesig>
+      </ArithDesignator></TheTargets>
+      <TheExpr LineNr="93" EndLineNr="94" ColNr="26" EndColNr="53" ID="-356"><FunctionCallExpression LineNr="93" EndLineNr="94" ColNr="26" EndColNr="53" ID="356"><TheKeyword ID="642" LineNr="93" EndLineNr="94" ColNr="26" EndColNr="53">LengthKeyword</TheKeyword>
+       <TheArg LineNr="94" EndLineNr="94" ColNr="28" EndColNr="52" ID="-357"><FunctionCallExpression LineNr="94" EndLineNr="94" ColNr="28" EndColNr="52" ID="357">
+        <TheArg LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="-359" XRef="70"><Designator LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="359" XRef="70">
+         <TheElements LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="-360"><DesigElement LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="360">
+          <TheIdent LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="-361" XRef="70"><DataIdent LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51" ID="361" XRef="70">
+           <TheValue ID="640" LineNr="94" EndLineNr="94" ColNr="42" EndColNr="51">SCREEN-MSG</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheArg>
+        <TheFunctionName LineNr="94" EndLineNr="94" ColNr="37" EndColNr="40" ID="-358"><AnonIdent LineNr="94" EndLineNr="94" ColNr="37" EndColNr="40" ID="358">
+         <TheValue ID="641" LineNr="94" EndLineNr="94" ColNr="37" EndColNr="40">TRIM</TheValue>
+        </AnonIdent></TheFunctionName>
+       </FunctionCallExpression></TheArg>
+       
+      </FunctionCallExpression></TheExpr>
+     </ComputeStatement>
+     
+     <StringStatement LineNr="95" EndLineNr="96" ColNr="5" EndColNr="26" ID="362">
+      <TheClauses LineNr="95" EndLineNr="96" ColNr="12" EndColNr="25" ID="-363"><StringClause LineNr="95" EndLineNr="96" ColNr="12" EndColNr="25" ID="363">
+       <TheTarget LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="-374" XRef="73"><Designator LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="374" XRef="73">
+        <TheElements LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="-375"><DesigElement LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="375">
+         <TheIdent LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="-376" XRef="73"><DataIdent LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25" ID="376" XRef="73">
+          <TheValue ID="643" LineNr="96" EndLineNr="96" ColNr="14" EndColNr="25">SCREEN-MSG-2</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheTarget>
+       <TheChunks LineNr="95" EndLineNr="95" ColNr="12" EndColNr="44" ID="-364"><StringChunk LineNr="95" EndLineNr="95" ColNr="12" EndColNr="44" ID="364"><TheExprs LineNr="95" EndLineNr="95" ColNr="12" EndColNr="44" ID="-365" XRef="70"><Designator LineNr="95" EndLineNr="95" ColNr="12" EndColNr="35" ID="365" XRef="70">
+         <TheElements LineNr="95" EndLineNr="95" ColNr="12" EndColNr="35" ID="-366"><DesigElement LineNr="95" EndLineNr="95" ColNr="12" EndColNr="35" ID="366">
+          <TheIdent LineNr="95" EndLineNr="95" ColNr="12" EndColNr="21" ID="-367" XRef="70"><DataIdent LineNr="95" EndLineNr="95" ColNr="12" EndColNr="21" ID="367" XRef="70">
+           <TheValue ID="644" LineNr="95" EndLineNr="95" ColNr="12" EndColNr="21">SCREEN-MSG</TheValue>
+          </DataIdent></TheIdent>
+          <TheReferenceModifier LineNr="95" EndLineNr="95" ColNr="22" EndColNr="35" ID="-368"><ReferenceModifier LineNr="95" EndLineNr="95" ColNr="22" EndColNr="35" ID="368">
+           <TheFirstColonExpr LineNr="95" EndLineNr="95" ColNr="23" EndColNr="23" ID="-369"><IntegerLiteral LineNr="95" EndLineNr="95" ColNr="23" EndColNr="23" ID="369">
+            <TheValue ID="645" LineNr="95" EndLineNr="95" ColNr="23" EndColNr="23">1</TheValue>
+           </IntegerLiteral></TheFirstColonExpr>
+           <TheSecondColonExpr LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="-370" XRef="76"><Designator LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="370" XRef="76">
+            <TheElements LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="-371"><DesigElement LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="371">
+             <TheIdent LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="-372" XRef="76"><DataIdent LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34" ID="372" XRef="76">
+              <TheValue ID="646" LineNr="95" EndLineNr="95" ColNr="25" EndColNr="34">SCREEN-LEN</TheValue>
+             </DataIdent></TheIdent>
+            </DesigElement></TheElements>
+           </Designator></TheSecondColonExpr>
+          </ReferenceModifier></TheReferenceModifier>
+         </DesigElement></TheElements>
+        </Designator>
+        
+        <StringLiteral LineNr="95" EndLineNr="95" ColNr="37" EndColNr="44" ID="373">
+         <TheValue ID="647" LineNr="95" EndLineNr="95" ColNr="37" EndColNr="44">" (Y/N)"</TheValue>
+        </StringLiteral>
+       </TheExprs></StringChunk></TheChunks>
+      </StringClause></TheClauses>
+     </StringStatement>
+     <MoveStatement LineNr="97" EndLineNr="97" ColNr="5" EndColNr="36" ID="377">
+      <TheExpr LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="-378" XRef="73"><Designator LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="378" XRef="73">
+       <TheElements LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="-379"><DesigElement LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="379">
+        <TheIdent LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="-380" XRef="73"><DataIdent LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21" ID="380" XRef="73">
+         <TheValue ID="648" LineNr="97" EndLineNr="97" ColNr="10" EndColNr="21">SCREEN-MSG-2</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheExpr>
+      <TheTargets LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="-381" XRef="70"><Designator LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="381" XRef="70">
+       <TheElements LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="-382"><DesigElement LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="382">
+        <TheIdent LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="-383" XRef="70"><DataIdent LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35" ID="383" XRef="70">
+         <TheValue ID="649" LineNr="97" EndLineNr="97" ColNr="26" EndColNr="35">SCREEN-MSG</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTargets>
+     </MoveStatement>
+     <PerformStatement LineNr="98" EndLineNr="98" ColNr="5" EndColNr="31" ID="384">
+      <TheCodeRef LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="-385"><SectionCodeRef LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="385">
+       <TheFromLabel LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="-386" XRef="415"><TargetLabel LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="386" XRef="415">
+        <TheTarget LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="-387" XRef="415"><LabelIdent LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31" ID="387" XRef="415">
+         <TheValue ID="650" LineNr="98" EndLineNr="98" ColNr="13" EndColNr="31">DISPLAY-STATUS-LINE</TheValue>
+        </LabelIdent></TheTarget>
+       </TargetLabel></TheFromLabel>
+      </SectionCodeRef></TheCodeRef>
+     </PerformStatement>
+     <AcceptStatement LineNr="99" EndLineNr="99" ColNr="5" EndColNr="22" ID="388">
+      <TheTarget LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="-389" XRef="64"><Designator LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="389" XRef="64">
+       <TheElements LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="-390"><DesigElement LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="390">
+        <TheIdent LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="-391" XRef="64"><DataIdent LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22" ID="391" XRef="64">
+         <TheValue ID="651" LineNr="99" EndLineNr="99" ColNr="12" EndColNr="22">SCREEN-BUFF</TheValue>
+        </DataIdent></TheIdent>
+       </DesigElement></TheElements>
+      </Designator></TheTarget>
+     </AcceptStatement>
+     <IfStatement LineNr="100" EndLineNr="104" ColNr="5" EndColNr="13" ID="392"><TheThen ID="663" LineNr="100" EndLineNr="104" ColNr="5" EndColNr="13">TRUE</TheThen><TheEnd ID="664" LineNr="100" EndLineNr="104" ColNr="5" EndColNr="13">TRUE</TheEnd><TheElse ID="665" LineNr="100" EndLineNr="104" ColNr="5" EndColNr="13">TRUE</TheElse>
+      <TheCondition LineNr="100" EndLineNr="100" ColNr="8" EndColNr="31" ID="-393"><BinaryCondition LineNr="100" EndLineNr="100" ColNr="8" EndColNr="31" ID="393"><TheOp ID="652" LineNr="100" EndLineNr="100" ColNr="8" EndColNr="31">OrKeyword</TheOp>
+       
+       <TheLeft LineNr="100" EndLineNr="100" ColNr="8" EndColNr="24" ID="-394"><AtomicComparison LineNr="100" EndLineNr="100" ColNr="8" EndColNr="24" ID="394">
+        <TheLeft LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="-395" XRef="64"><Designator LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="395" XRef="64">
+         <TheElements LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="-396"><DesigElement LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="396">
+          <TheIdent LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="-397" XRef="64"><DataIdent LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18" ID="397" XRef="64">
+           <TheValue ID="653" LineNr="100" EndLineNr="100" ColNr="8" EndColNr="18">SCREEN-BUFF</TheValue>
+          </DataIdent></TheIdent>
+         </DesigElement></TheElements>
+        </Designator></TheLeft>
+        <TheRight LineNr="100" EndLineNr="100" ColNr="20" EndColNr="24" ID="-398"><SingleRightSide LineNr="100" EndLineNr="100" ColNr="20" EndColNr="24" ID="398">
+         <TheComparisonOp LineNr="100" EndLineNr="100" ColNr="20" EndColNr="20" ID="-399"><ComparisonOperator LineNr="100" EndLineNr="100" ColNr="20" EndColNr="20" ID="399">
+          <TheOp ID="654" LineNr="100" EndLineNr="100" ColNr="20" EndColNr="20">Equal</TheOp>
+         </ComparisonOperator></TheComparisonOp>
+         <TheArg LineNr="100" EndLineNr="100" ColNr="22" EndColNr="24" ID="-400"><StringLiteral LineNr="100" EndLineNr="100" ColNr="22" EndColNr="24" ID="400">
+          <TheValue ID="655" LineNr="100" EndLineNr="100" ColNr="22" EndColNr="24">'Y'</TheValue>
+         </StringLiteral></TheArg>
+        </SingleRightSide></TheRight>
+       </AtomicComparison></TheLeft>
+       <TheRight LineNr="100" EndLineNr="100" ColNr="29" EndColNr="31" ID="-401" LeftPart="C:\Users\johan\Documents\Intimals\Reference_Sources\BartholBank\RMENU.cob:394"><CompoundRightSideElement LineNr="100" EndLineNr="100" ColNr="29" EndColNr="31" ID="401" LeftPart="C:\Users\johan\Documents\Intimals\Reference_Sources\BartholBank\RMENU.cob:394">
+        <TheExpr LineNr="100" EndLineNr="100" ColNr="29" EndColNr="31" ID="-402"><StringLiteral LineNr="100" EndLineNr="100" ColNr="29" EndColNr="31" ID="402">
+         <TheValue ID="656" LineNr="100" EndLineNr="100" ColNr="29" EndColNr="31">'y'</TheValue>
+        </StringLiteral></TheExpr>
+       </CompoundRightSideElement></TheRight>
+      </BinaryCondition></TheCondition>
+      <TheStatementList LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28" ID="-403"><StatementList LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28" ID="403">
+       <AList LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28" ID="-404"><SetStatement LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28" ID="404"><TheOption ID="657" LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28">TrueKeyword</TheOption><TheMode ID="658" LineNr="101" EndLineNr="101" ColNr="7" EndColNr="28">ToKeyword</TheMode>
+        
+        
+        <TheTargets LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="-405"><SetTarget LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="405">
+         <TheTarget LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="-406" XRef="83"><Designator LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="406" XRef="83">
+          <TheElements LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="-407"><DesigElement LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="407">
+           <TheIdent LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="-408" XRef="83"><DataIdent LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20" ID="408" XRef="83">
+            <TheValue ID="659" LineNr="101" EndLineNr="101" ColNr="11" EndColNr="20">SCREEN-YES</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheTarget>
+        </SetTarget></TheTargets>
+       </SetStatement></AList>
+      </StatementList></TheStatementList>
+      <TheElseStatementList LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27" ID="-409"><StatementList LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27" ID="409">
+       <AList LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27" ID="-410"><SetStatement LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27" ID="410"><TheOption ID="660" LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27">TrueKeyword</TheOption><TheMode ID="661" LineNr="103" EndLineNr="103" ColNr="7" EndColNr="27">ToKeyword</TheMode>
+        
+        
+        <TheTargets LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="-411"><SetTarget LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="411">
+         <TheTarget LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="-412" XRef="88"><Designator LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="412" XRef="88">
+          <TheElements LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="-413"><DesigElement LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="413">
+           <TheIdent LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="-414" XRef="88"><DataIdent LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19" ID="414" XRef="88">
+            <TheValue ID="662" LineNr="103" EndLineNr="103" ColNr="11" EndColNr="19">SCREEN-NO</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheTarget>
+        </SetTarget></TheTargets>
+       </SetStatement></AList>
+      </StatementList></TheElseStatementList>
+      
+      
+      
+     </IfStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock><ParagraphStatementBlock LineNr="105" EndLineNr="107" ColNr="2" EndColNr="30" ID="415"><TheDot ID="676" LineNr="105" EndLineNr="107" ColNr="2" EndColNr="30">TRUE</TheDot>
+    <ALabelIdent LineNr="105" EndLineNr="105" ColNr="2" EndColNr="20" ID="-416"><LabelIdent LineNr="105" EndLineNr="105" ColNr="2" EndColNr="20" ID="416">
+     <TheValue ID="667" LineNr="105" EndLineNr="105" ColNr="2" EndColNr="20">DISPLAY-STATUS-LINE</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="106" EndLineNr="107" ColNr="5" EndColNr="30" ID="-417"><PeriodStatementList LineNr="106" EndLineNr="107" ColNr="5" EndColNr="30" ID="417">
+     <AList LineNr="106" EndLineNr="107" ColNr="5" EndColNr="30" ID="-418"><DisplayStatement LineNr="106" EndLineNr="107" ColNr="5" EndColNr="30" ID="418"><TheArg LineNr="106" EndLineNr="107" ColNr="13" EndColNr="29" ID="-419"><DisplayArg LineNr="106" EndLineNr="106" ColNr="13" EndColNr="22" ID="419"><TheCode ID="668" LineNr="106" EndLineNr="106" ColNr="13" EndColNr="22">LineKeyword</TheCode>
+       
+       <ThePosition LineNr="106" EndLineNr="106" ColNr="21" EndColNr="22" ID="-420"><IntegerLiteral LineNr="106" EndLineNr="106" ColNr="21" EndColNr="22" ID="420">
+        <TheValue ID="669" LineNr="106" EndLineNr="106" ColNr="21" EndColNr="22">24</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      
+      <DisplayArg LineNr="106" EndLineNr="106" ColNr="24" EndColNr="28" ID="421"><TheCode ID="670" LineNr="106" EndLineNr="106" ColNr="24" EndColNr="28">ColKeyword</TheCode>
+       
+       <ThePosition LineNr="106" EndLineNr="106" ColNr="28" EndColNr="28" ID="-422"><IntegerLiteral LineNr="106" EndLineNr="106" ColNr="28" EndColNr="28" ID="422">
+        <TheValue ID="671" LineNr="106" EndLineNr="106" ColNr="28" EndColNr="28">5</TheValue>
+       </IntegerLiteral></ThePosition>
+      </DisplayArg>
+      <FunctionCallExpression LineNr="106" EndLineNr="106" ColNr="30" EndColNr="54" ID="423">
+       <TheArg LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="-425" XRef="70"><Designator LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="425" XRef="70">
+        <TheElements LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="-426"><DesigElement LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="426">
+         <TheIdent LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="-427" XRef="70"><DataIdent LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53" ID="427" XRef="70">
+          <TheValue ID="672" LineNr="106" EndLineNr="106" ColNr="44" EndColNr="53">SCREEN-MSG</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheArg>
+       <TheFunctionName LineNr="106" EndLineNr="106" ColNr="39" EndColNr="42" ID="-424"><AnonIdent LineNr="106" EndLineNr="106" ColNr="39" EndColNr="42" ID="424">
+        <TheValue ID="673" LineNr="106" EndLineNr="106" ColNr="39" EndColNr="42">TRIM</TheValue>
+       </AnonIdent></TheFunctionName>
+      </FunctionCallExpression>
+      <DisplayArg LineNr="107" EndLineNr="107" ColNr="18" EndColNr="29" ID="428">
+       <TheCode ID="674" LineNr="107" EndLineNr="107" ColNr="18" EndColNr="29">AdvancingKeyword</TheCode>
+       <TheNo ID="675" LineNr="107" EndLineNr="107" ColNr="18" EndColNr="29">TRUE</TheNo>
+      </DisplayArg>
+     </TheArg></DisplayStatement></AList>
+    </PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock></TheBlocks>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  </ProcedureDivision></TheProcedureDivision>
+ </CobolProgram></ThePrograms></ROOT></SourceFile>

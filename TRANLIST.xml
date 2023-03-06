@@ -1,0 +1,365 @@
+﻿<SourceFile xmlns:xsi="http://www.w3.org/2001/XMLSchema" FullName="C:\Users\johan\Documents\Intimals\Reference_Sources\BartholBank\TRANLIST.cob" Language="Cobol" ID="12110">
+
+ <ROOT LineNr="1" EndLineNr="44" ColNr="2" EndColNr="18" ID="-12089"><ThePrograms ID="12208" LineNr="1" EndLineNr="44" ColNr="" EndColNr="18"><CobolProgram LineNr="1" EndLineNr="44" ColNr="2" EndColNr="18" ID="12089">
+  <TheIdentificationDivision LineNr="1" EndLineNr="2" ColNr="2" EndColNr="26" ID="-11947"><IdentificationDivision LineNr="1" EndLineNr="2" ColNr="2" EndColNr="26" ID="11947">
+   <TheProgramIdClause LineNr="2" EndLineNr="2" ColNr="2" EndColNr="26" ID="-11946"><ProgramIdClause LineNr="2" EndLineNr="2" ColNr="2" EndColNr="26" ID="11946">
+    <TheId LineNr="2" EndLineNr="2" ColNr="18" EndColNr="25" ID="-11945"><AnonIdent LineNr="2" EndLineNr="2" ColNr="18" EndColNr="25" ID="11945">
+     <TheValue ID="12111" LineNr="2" EndLineNr="2" ColNr="18" EndColNr="25">TRANLIST</TheValue>
+    </AnonIdent></TheId>
+   </ProgramIdClause></TheProgramIdClause>
+  </IdentificationDivision></TheIdentificationDivision>
+  <TheEnvironmentDivision LineNr="3" EndLineNr="4" ColNr="2" EndColNr="25" ID="-11949"><EnvironmentDivision LineNr="3" EndLineNr="4" ColNr="2" EndColNr="25" ID="11949">
+   <TheConfigurationSection LineNr="4" EndLineNr="4" ColNr="2" EndColNr="25" ID="-11948"><ConfigurationSection LineNr="4" EndLineNr="4" ColNr="2" EndColNr="25" ID="11948">
+   </ConfigurationSection></TheConfigurationSection>
+  </EnvironmentDivision></TheEnvironmentDivision>
+  <TheDataDivision LineNr="5" EndLineNr="29" ColNr="2" EndColNr="36" ID="-12016"><DataDivision LineNr="5" EndLineNr="29" ColNr="2" EndColNr="36" ID="12016">
+   <TheWorkingStorageSection LineNr="6" EndLineNr="29" ColNr="2" EndColNr="36" ID="-12015"><WorkingStorageSection LineNr="6" EndLineNr="29" ColNr="2" EndColNr="36" ID="12015">
+    <TheData LineNr="10" EndLineNr="29" ColNr="2" EndColNr="36" ID="-12014"><DataDecl LineNr="10" EndLineNr="29" ColNr="2" EndColNr="36" ID="12014"><TheFields LineNr="1" EndLineNr="29" ColNr="2" EndColNr="36" ID="-12090" Level="1"><DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12090" Level="1"><TheSpecialCode ID="12112" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="12116" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12091" XRef="12090"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12091" XRef="12090">
+       <TheValue ID="12113" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">RETURN-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12092"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12092">
+       <TheValue ID="12114" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(4)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12093"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12093">
+       <TheCode ID="12115" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12094" Level="1"><TheSpecialCode ID="12117" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="12121" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12095" XRef="12094"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12095" XRef="12094">
+       <TheValue ID="12118" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">SORT-RETURN</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12096"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12096">
+       <TheValue ID="12119" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(4)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12097"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12097">
+       <TheCode ID="12120" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12098" Level="1"><TheSpecialCode ID="12122" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="12126" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12099" XRef="12098"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12099" XRef="12098">
+       <TheValue ID="12123" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">SORT-CORE-SIZE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12100"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12100">
+       <TheValue ID="12124" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(8)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12101"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12101">
+       <TheCode ID="12125" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12102" Level="1"><TheSpecialCode ID="12127" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="12131" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12103" XRef="12102"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12103" XRef="12102">
+       <TheValue ID="12128" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TALLY</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12104"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12104">
+       <TheValue ID="12129" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12105"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12105">
+       <TheCode ID="12130" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12106" Level="1"><TheSpecialCode ID="12132" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">ExternalKeyword</TheSpecialCode><TheDot ID="12136" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">TRUE</TheDot>
+      
+      <TheId LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12107" XRef="12106"><DataIdent LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12107" XRef="12106">
+       <TheValue ID="12133" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">XML-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12108"><PicClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12108">
+       <TheValue ID="12134" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">S9(9)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="-12109"><UsageClause LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15" ID="12109">
+       <TheCode ID="12135" LineNr="1" EndLineNr="1" ColNr="2" EndColNr="15">BinaryKeyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="10" EndLineNr="10" ColNr="2" EndColNr="20" ID="11952" Level="1"><TheDot ID="12138" LineNr="10" EndLineNr="10" ColNr="2" EndColNr="20">TRUE</TheDot>
+      <TheId LineNr="10" EndLineNr="10" ColNr="5" EndColNr="17" ID="-11951" XRef="11952"><DataIdent LineNr="10" EndLineNr="10" ColNr="5" EndColNr="17" ID="11951" XRef="11952">
+       <TheValue ID="12137" LineNr="10" EndLineNr="10" ColNr="5" EndColNr="17">TRAN-CTRL-BLK</TheValue>
+      </DataIdent></TheId>
+      
+     </DataField>
+     <DataField LineNr="11" EndLineNr="11" ColNr="10" EndColNr="49" ID="11957" Level="5" ParentLevel="11952"><TheDot ID="12142" LineNr="11" EndLineNr="11" ColNr="10" EndColNr="49">TRUE</TheDot>
+      <TheId LineNr="11" EndLineNr="11" ColNr="13" EndColNr="30" ID="-11954" XRef="11957"><DataIdent LineNr="11" EndLineNr="11" ColNr="13" EndColNr="30" ID="11954" XRef="11957">
+       <TheValue ID="12139" LineNr="11" EndLineNr="11" ColNr="13" EndColNr="30">TRAN-CTRL-RET-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="11" EndLineNr="11" ColNr="39" EndColNr="46" ID="-11956"><PicClause LineNr="11" EndLineNr="11" ColNr="39" EndColNr="46" ID="11956">
+       <TheValue ID="12140" LineNr="11" EndLineNr="11" ColNr="39" EndColNr="46">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="11" EndLineNr="11" ColNr="32" EndColNr="37" ID="-11955"><UsageClause LineNr="11" EndLineNr="11" ColNr="32" EndColNr="37" ID="11955">
+       <TheCode ID="12141" LineNr="11" EndLineNr="11" ColNr="32" EndColNr="37">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="12" EndLineNr="12" ColNr="10" EndColNr="49" ID="11961" Level="5" ParentLevel="11952"><TheDot ID="12145" LineNr="12" EndLineNr="12" ColNr="10" EndColNr="49">TRUE</TheDot>
+      <TheId LineNr="12" EndLineNr="12" ColNr="13" EndColNr="32" ID="-11959" XRef="11961"><DataIdent LineNr="12" EndLineNr="12" ColNr="13" EndColNr="32" ID="11959" XRef="11961">
+       <TheValue ID="12143" LineNr="12" EndLineNr="12" ColNr="13" EndColNr="32">TRAN-CTRL-EXTFH-CODE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="12" EndLineNr="12" ColNr="39" EndColNr="46" ID="-11960"><PicClause LineNr="12" EndLineNr="12" ColNr="39" EndColNr="46" ID="11960">
+       <TheValue ID="12144" LineNr="12" EndLineNr="12" ColNr="39" EndColNr="46">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="13" EndLineNr="13" ColNr="10" EndColNr="50" ID="11965" Level="5" ParentLevel="11952"><TheDot ID="12148" LineNr="13" EndLineNr="13" ColNr="10" EndColNr="50">TRUE</TheDot>
+      <TheId LineNr="13" EndLineNr="13" ColNr="13" EndColNr="29" ID="-11963" XRef="11965"><DataIdent LineNr="13" EndLineNr="13" ColNr="13" EndColNr="29" ID="11963" XRef="11965">
+       <TheValue ID="12146" LineNr="13" EndLineNr="13" ColNr="13" EndColNr="29">TRAN-CTRL-ERR-MSG</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="13" EndLineNr="13" ColNr="39" EndColNr="47" ID="-11964"><PicClause LineNr="13" EndLineNr="13" ColNr="39" EndColNr="47" ID="11964">
+       <TheValue ID="12147" LineNr="13" EndLineNr="13" ColNr="39" EndColNr="47">X(60)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="14" EndLineNr="14" ColNr="10" EndColNr="68" ID="11970" Level="5" ParentLevel="11952"><TheDot ID="12152" LineNr="14" EndLineNr="14" ColNr="10" EndColNr="68">TRUE</TheDot>
+      <TheId LineNr="14" EndLineNr="14" ColNr="13" EndColNr="29" ID="-11967" XRef="11970"><DataIdent LineNr="14" EndLineNr="14" ColNr="13" EndColNr="29" ID="11967" XRef="11970">
+       <TheValue ID="12149" LineNr="14" EndLineNr="14" ColNr="13" EndColNr="29">TRAN-OPENED-COUNT</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="14" EndLineNr="14" ColNr="46" EndColNr="53" ID="-11969"><PicClause LineNr="14" EndLineNr="14" ColNr="46" EndColNr="53" ID="11969">
+       <TheValue ID="12150" LineNr="14" EndLineNr="14" ColNr="46" EndColNr="53">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="14" EndLineNr="14" ColNr="37" EndColNr="42" ID="-11968"><UsageClause LineNr="14" EndLineNr="14" ColNr="37" EndColNr="42" ID="11968">
+       <TheCode ID="12151" LineNr="14" EndLineNr="14" ColNr="37" EndColNr="42">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="15" EndLineNr="15" ColNr="10" EndColNr="56" ID="11975" Level="5" ParentLevel="11952"><TheDot ID="12156" LineNr="15" EndLineNr="15" ColNr="10" EndColNr="56">TRUE</TheDot>
+      <TheId LineNr="15" EndLineNr="15" ColNr="13" EndColNr="29" ID="-11972" XRef="11975"><DataIdent LineNr="15" EndLineNr="15" ColNr="13" EndColNr="29" ID="11972" XRef="11975">
+       <TheValue ID="12153" LineNr="15" EndLineNr="15" ColNr="13" EndColNr="29">TRAN-CLOSED-COUNT</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="15" EndLineNr="15" ColNr="46" EndColNr="53" ID="-11974"><PicClause LineNr="15" EndLineNr="15" ColNr="46" EndColNr="53" ID="11974">
+       <TheValue ID="12154" LineNr="15" EndLineNr="15" ColNr="46" EndColNr="53">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="15" EndLineNr="15" ColNr="37" EndColNr="42" ID="-11973"><UsageClause LineNr="15" EndLineNr="15" ColNr="37" EndColNr="42" ID="11973">
+       <TheCode ID="12155" LineNr="15" EndLineNr="15" ColNr="37" EndColNr="42">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="21" EndLineNr="21" ColNr="2" EndColNr="17" ID="11978" Level="1"><TheDot ID="12158" LineNr="21" EndLineNr="21" ColNr="2" EndColNr="17">TRUE</TheDot>
+      <TheId LineNr="21" EndLineNr="21" ColNr="5" EndColNr="14" ID="-11977" XRef="11978"><DataIdent LineNr="21" EndLineNr="21" ColNr="5" EndColNr="14" ID="11977" XRef="11978">
+       <TheValue ID="12157" LineNr="21" EndLineNr="21" ColNr="5" EndColNr="14">T-TRAN-REC</TheValue>
+      </DataIdent></TheId>
+      
+     </DataField>
+     <DataField LineNr="22" EndLineNr="22" ColNr="10" EndColNr="36" ID="11982" Level="5" ParentLevel="11978"><TheDot ID="12161" LineNr="22" EndLineNr="22" ColNr="10" EndColNr="36">TRUE</TheDot>
+      <TheId LineNr="22" EndLineNr="22" ColNr="13" EndColNr="21" ID="-11980" XRef="11982"><DataIdent LineNr="22" EndLineNr="22" ColNr="13" EndColNr="21" ID="11980" XRef="11982">
+       <TheValue ID="12159" LineNr="22" EndLineNr="22" ColNr="13" EndColNr="21">T-TRAN-ID</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="22" EndLineNr="22" ColNr="26" EndColNr="33" ID="-11981"><PicClause LineNr="22" EndLineNr="22" ColNr="26" EndColNr="33" ID="11981">
+       <TheValue ID="12160" LineNr="22" EndLineNr="22" ColNr="26" EndColNr="33">9(5)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="23" EndLineNr="23" ColNr="10" EndColNr="36" ID="11986" Level="5" ParentLevel="11978"><TheDot ID="12164" LineNr="23" EndLineNr="23" ColNr="10" EndColNr="36">TRUE</TheDot>
+      <TheId LineNr="23" EndLineNr="23" ColNr="13" EndColNr="23" ID="-11984" XRef="11986"><DataIdent LineNr="23" EndLineNr="23" ColNr="13" EndColNr="23" ID="11984" XRef="11986">
+       <TheValue ID="12162" LineNr="23" EndLineNr="23" ColNr="13" EndColNr="23">T-TRAN-DATE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="23" EndLineNr="23" ColNr="26" EndColNr="33" ID="-11985"><PicClause LineNr="23" EndLineNr="23" ColNr="26" EndColNr="33" ID="11985">
+       <TheValue ID="12163" LineNr="23" EndLineNr="23" ColNr="26" EndColNr="33">9(8)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="24" EndLineNr="24" ColNr="10" EndColNr="37" ID="11990" Level="5" ParentLevel="11978"><TheDot ID="12167" LineNr="24" EndLineNr="24" ColNr="10" EndColNr="37">TRUE</TheDot>
+      <TheId LineNr="24" EndLineNr="24" ColNr="13" EndColNr="25" ID="-11988" XRef="11990"><DataIdent LineNr="24" EndLineNr="24" ColNr="13" EndColNr="25" ID="11988" XRef="11990">
+       <TheValue ID="12165" LineNr="24" EndLineNr="24" ColNr="13" EndColNr="25">T-TRAN-STATUS</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="24" EndLineNr="24" ColNr="27" EndColNr="34" ID="-11989"><PicClause LineNr="24" EndLineNr="24" ColNr="27" EndColNr="34" ID="11989">
+       <TheValue ID="12166" LineNr="24" EndLineNr="24" ColNr="27" EndColNr="34">X(1)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="25" EndLineNr="25" ColNr="12" EndColNr="39" ID="11995" Level="88" ParentLevel="11990"><TheDot ID="12170" LineNr="25" EndLineNr="25" ColNr="12" EndColNr="39">TRUE</TheDot>
+      <TheId LineNr="25" EndLineNr="25" ColNr="15" EndColNr="25" ID="-11991" XRef="11995"><DataIdent LineNr="25" EndLineNr="25" ColNr="15" EndColNr="25" ID="11991" XRef="11995">
+       <TheValue ID="12168" LineNr="25" EndLineNr="25" ColNr="15" EndColNr="25">T-TRAN-OPEN</TheValue>
+      </DataIdent></TheId>
+      <TheValueClause LineNr="25" EndLineNr="25" ColNr="28" EndColNr="36" ID="-11994"><L88ValueClause LineNr="25" EndLineNr="25" ColNr="28" EndColNr="36" ID="11994">
+       <TheEntryList LineNr="25" EndLineNr="25" ColNr="34" EndColNr="36" ID="-11993"><ValueEntry LineNr="25" EndLineNr="25" ColNr="34" EndColNr="36" ID="11993">
+        <TheFirstValue LineNr="25" EndLineNr="25" ColNr="34" EndColNr="36" ID="-11992"><StringLiteral LineNr="25" EndLineNr="25" ColNr="34" EndColNr="36" ID="11992">
+         <TheValue ID="12169" LineNr="25" EndLineNr="25" ColNr="34" EndColNr="36">"O"</TheValue>
+        </StringLiteral></TheFirstValue>
+       </ValueEntry></TheEntryList>
+      </L88ValueClause></TheValueClause>
+      
+     </DataField>
+     <DataField LineNr="26" EndLineNr="26" ColNr="12" EndColNr="39" ID="12000" Level="88" ParentLevel="11990"><TheDot ID="12173" LineNr="26" EndLineNr="26" ColNr="12" EndColNr="39">TRUE</TheDot>
+      <TheId LineNr="26" EndLineNr="26" ColNr="15" EndColNr="26" ID="-11996" XRef="12000"><DataIdent LineNr="26" EndLineNr="26" ColNr="15" EndColNr="26" ID="11996" XRef="12000">
+       <TheValue ID="12171" LineNr="26" EndLineNr="26" ColNr="15" EndColNr="26">T-TRAN-CLOSE</TheValue>
+      </DataIdent></TheId>
+      <TheValueClause LineNr="26" EndLineNr="26" ColNr="28" EndColNr="36" ID="-11999"><L88ValueClause LineNr="26" EndLineNr="26" ColNr="28" EndColNr="36" ID="11999">
+       <TheEntryList LineNr="26" EndLineNr="26" ColNr="34" EndColNr="36" ID="-11998"><ValueEntry LineNr="26" EndLineNr="26" ColNr="34" EndColNr="36" ID="11998">
+        <TheFirstValue LineNr="26" EndLineNr="26" ColNr="34" EndColNr="36" ID="-11997"><StringLiteral LineNr="26" EndLineNr="26" ColNr="34" EndColNr="36" ID="11997">
+         <TheValue ID="12172" LineNr="26" EndLineNr="26" ColNr="34" EndColNr="36">"C"</TheValue>
+        </StringLiteral></TheFirstValue>
+       </ValueEntry></TheEntryList>
+      </L88ValueClause></TheValueClause>
+      
+     </DataField>
+     <DataField LineNr="27" EndLineNr="27" ColNr="10" EndColNr="43" ID="12004" Level="5" ParentLevel="11978"><TheDot ID="12176" LineNr="27" EndLineNr="27" ColNr="10" EndColNr="43">TRUE</TheDot>
+      <TheId LineNr="27" EndLineNr="27" ColNr="13" EndColNr="26" ID="-12002" XRef="12004"><DataIdent LineNr="27" EndLineNr="27" ColNr="13" EndColNr="26" ID="12002" XRef="12004">
+       <TheValue ID="12174" LineNr="27" EndLineNr="27" ColNr="13" EndColNr="26">T-TRAN-BALANCE</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="27" EndLineNr="27" ColNr="28" EndColNr="40" ID="-12003"><PicClause LineNr="27" EndLineNr="27" ColNr="28" EndColNr="40" ID="12003">
+       <TheValue ID="12175" LineNr="27" EndLineNr="27" ColNr="28" EndColNr="40">-99999V99</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+     <DataField LineNr="28" EndLineNr="28" ColNr="10" EndColNr="48" ID="12009" Level="5" ParentLevel="11978"><TheDot ID="12180" LineNr="28" EndLineNr="28" ColNr="10" EndColNr="48">TRUE</TheDot>
+      <TheId LineNr="28" EndLineNr="28" ColNr="13" EndColNr="29" ID="-12006" XRef="12009"><DataIdent LineNr="28" EndLineNr="28" ColNr="13" EndColNr="29" ID="12006" XRef="12009">
+       <TheValue ID="12177" LineNr="28" EndLineNr="28" ColNr="13" EndColNr="29">T-TRAN-LINE-COUNT</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="28" EndLineNr="28" ColNr="31" EndColNr="38" ID="-12007"><PicClause LineNr="28" EndLineNr="28" ColNr="31" EndColNr="38" ID="12007">
+       <TheValue ID="12178" LineNr="28" EndLineNr="28" ColNr="31" EndColNr="38">9(3)</TheValue>
+      </PicClause></ThePicClause>
+      <TheUsageClause LineNr="28" EndLineNr="28" ColNr="40" EndColNr="45" ID="-12008"><UsageClause LineNr="28" EndLineNr="28" ColNr="40" EndColNr="45" ID="12008">
+       <TheCode ID="12179" LineNr="28" EndLineNr="28" ColNr="40" EndColNr="45">Comp5Keyword</TheCode>
+      </UsageClause></TheUsageClause>
+      
+     </DataField>
+     <DataField LineNr="29" EndLineNr="29" ColNr="10" EndColNr="36" ID="12013" Level="5" ParentLevel="11978"><TheDot ID="12183" LineNr="29" EndLineNr="29" ColNr="10" EndColNr="36">TRUE</TheDot>
+      <TheId LineNr="29" EndLineNr="29" ColNr="13" EndColNr="23" ID="-12011" XRef="12013"><DataIdent LineNr="29" EndLineNr="29" ColNr="13" EndColNr="23" ID="12011" XRef="12013">
+       <TheValue ID="12181" LineNr="29" EndLineNr="29" ColNr="13" EndColNr="23">T-TRAN-DESC</TheValue>
+      </DataIdent></TheId>
+      <ThePicClause LineNr="29" EndLineNr="29" ColNr="25" EndColNr="33" ID="-12012"><PicClause LineNr="29" EndLineNr="29" ColNr="25" EndColNr="33" ID="12012">
+       <TheValue ID="12182" LineNr="29" EndLineNr="29" ColNr="25" EndColNr="33">X(40)</TheValue>
+      </PicClause></ThePicClause>
+      
+     </DataField>
+    </TheFields></DataDecl></TheData>
+   </WorkingStorageSection></TheWorkingStorageSection>
+  </DataDivision></TheDataDivision>
+  <TheProcedureDivision LineNr="31" EndLineNr="44" ColNr="2" EndColNr="18" ID="-12088"><ProcedureDivision LineNr="31" EndLineNr="44" ColNr="2" EndColNr="18" ID="12088">
+   <TheBlocks LineNr="32" EndLineNr="44" ColNr="2" EndColNr="18" ID="-12087"><ParagraphStatementBlock LineNr="32" EndLineNr="44" ColNr="2" EndColNr="18" ID="12087"><TheDot ID="12207" LineNr="32" EndLineNr="44" ColNr="2" EndColNr="18">TRUE</TheDot>
+    <ALabelIdent LineNr="32" EndLineNr="32" ColNr="2" EndColNr="14" ID="-12019"><LabelIdent LineNr="32" EndLineNr="32" ColNr="2" EndColNr="14" ID="12019">
+     <TheValue ID="12184" LineNr="32" EndLineNr="32" ColNr="2" EndColNr="14">LIST-ACCOUNTS</TheValue>
+    </LabelIdent></ALabelIdent>
+    <AStatementList LineNr="33" EndLineNr="44" ColNr="5" EndColNr="18" ID="-12086"><PeriodStatementList LineNr="33" EndLineNr="44" ColNr="5" EndColNr="18" ID="12086"><AList LineNr="33" EndLineNr="44" ColNr="5" EndColNr="18" ID="-12034"><CallStatement LineNr="33" EndLineNr="34" ColNr="5" EndColNr="36" ID="12034">
+      <TheArg LineNr="33" EndLineNr="34" ColNr="26" EndColNr="35" ID="-12026"><CallArgument LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="12026">
+       <TheExpr LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="-12025" XRef="11952"><Designator LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="12025" XRef="11952">
+        <TheElements LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="-12024"><DesigElement LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="12024">
+         <TheIdent LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="-12023" XRef="11952"><DataIdent LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38" ID="12023" XRef="11952">
+          <TheValue ID="12185" LineNr="33" EndLineNr="33" ColNr="26" EndColNr="38">TRAN-CTRL-BLK</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheExpr>
+      </CallArgument><CallArgument LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="12033">
+       <TheExpr LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="-12032" XRef="11978"><Designator LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="12032" XRef="11978">
+        <TheElements LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="-12031"><DesigElement LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="12031">
+         <TheIdent LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="-12030" XRef="11978"><DataIdent LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35" ID="12030" XRef="11978">
+          <TheValue ID="12186" LineNr="34" EndLineNr="34" ColNr="26" EndColNr="35">T-TRAN-REC</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheExpr>
+      </CallArgument></TheArg>
+      
+      <TheProcToken LineNr="33" EndLineNr="33" ColNr="10" EndColNr="18" ID="-12020"><StringLiteral LineNr="33" EndLineNr="33" ColNr="10" EndColNr="18" ID="12020">
+       <TheValue ID="12187" LineNr="33" EndLineNr="33" ColNr="10" EndColNr="18">"TRANIDF"</TheValue>
+      </StringLiteral></TheProcToken>
+     </CallStatement>
+     
+     <PerformStatement LineNr="35" EndLineNr="44" ColNr="5" EndColNr="18" ID="12083"><TheTestMode ID="12192" LineNr="35" EndLineNr="44" ColNr="5" EndColNr="18">BeforeKeyword</TheTestMode><TheEnd ID="12206" LineNr="35" EndLineNr="44" ColNr="5" EndColNr="18">TRUE</TheEnd>
+      <TheUntil LineNr="37" EndLineNr="37" ColNr="15" EndColNr="40" ID="-12044"><AtomicComparison LineNr="37" EndLineNr="37" ColNr="15" EndColNr="40" ID="12044">
+       <TheLeft LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="-12039" XRef="11957"><Designator LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="12039" XRef="11957">
+        <TheElements LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="-12038"><DesigElement LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="12038">
+         <TheIdent LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="-12037" XRef="11957"><DataIdent LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32" ID="12037" XRef="11957">
+          <TheValue ID="12188" LineNr="37" EndLineNr="37" ColNr="15" EndColNr="32">TRAN-CTRL-RET-CODE</TheValue>
+         </DataIdent></TheIdent>
+        </DesigElement></TheElements>
+       </Designator></TheLeft>
+       <TheRight LineNr="37" EndLineNr="37" ColNr="34" EndColNr="40" ID="-12043"><SingleRightSide LineNr="37" EndLineNr="37" ColNr="34" EndColNr="40" ID="12043">
+        <TheComparisonOp LineNr="37" EndLineNr="37" ColNr="34" EndColNr="38" ID="-12041"><ComparisonOperator LineNr="37" EndLineNr="37" ColNr="34" EndColNr="38" ID="12041">
+         <TheOp ID="12189" LineNr="37" EndLineNr="37" ColNr="34" EndColNr="38">Equal</TheOp>
+         <TheNegated ID="12190" LineNr="37" EndLineNr="37" ColNr="34" EndColNr="38">TRUE</TheNegated>
+        </ComparisonOperator></TheComparisonOp>
+        <TheArg LineNr="37" EndLineNr="37" ColNr="40" EndColNr="40" ID="-12042"><IntegerLiteral LineNr="37" EndLineNr="37" ColNr="40" EndColNr="40" ID="12042">
+         <TheValue ID="12191" LineNr="37" EndLineNr="37" ColNr="40" EndColNr="40">0</TheValue>
+        </IntegerLiteral></TheArg>
+       </SingleRightSide></TheRight>
+      </AtomicComparison></TheUntil>
+      
+      <TheBody LineNr="38" EndLineNr="43" ColNr="9" EndColNr="53" ID="-12082"><StatementList LineNr="38" EndLineNr="43" ColNr="9" EndColNr="53" ID="12082"><AList LineNr="38" EndLineNr="43" ColNr="9" EndColNr="53" ID="-12069"><IfStatement LineNr="38" EndLineNr="42" ColNr="9" EndColNr="16" ID="12069"><TheThen ID="12201" LineNr="38" EndLineNr="42" ColNr="9" EndColNr="16">TRUE</TheThen><TheEnd ID="12202" LineNr="38" EndLineNr="42" ColNr="9" EndColNr="16">TRUE</TheEnd>
+        <TheCondition LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="-12048"><DesignatorCondition LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="12048">
+         <TheDesig LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="-12047" XRef="11995"><Designator LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="12047" XRef="11995">
+          <TheElements LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="-12046"><DesigElement LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="12046">
+           <TheIdent LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="-12045" XRef="11995"><DataIdent LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22" ID="12045" XRef="11995">
+            <TheValue ID="12193" LineNr="38" EndLineNr="38" ColNr="12" EndColNr="22">T-TRAN-OPEN</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheDesig>
+        </DesignatorCondition></TheCondition>
+        <TheStatementList LineNr="39" EndLineNr="41" ColNr="11" EndColNr="40" ID="-12068"><StatementList LineNr="39" EndLineNr="41" ColNr="11" EndColNr="40" ID="12068">
+         <AList LineNr="39" EndLineNr="41" ColNr="11" EndColNr="40" ID="-12067"><DisplayStatement LineNr="39" EndLineNr="41" ColNr="11" EndColNr="40" ID="12067"><TheArg LineNr="39" EndLineNr="41" ColNr="19" EndColNr="40" ID="-12049"><StringLiteral LineNr="39" EndLineNr="39" ColNr="19" EndColNr="21" ID="12049">
+           <TheValue ID="12194" LineNr="39" EndLineNr="39" ColNr="19" EndColNr="21">"["</TheValue>
+          </StringLiteral>
+          
+          <Designator LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31" ID="12053" XRef="11982">
+           <TheElements LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31" ID="-12052"><DesigElement LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31" ID="12052">
+            <TheIdent LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31" ID="-12051" XRef="11982"><DataIdent LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31" ID="12051" XRef="11982">
+             <TheValue ID="12195" LineNr="39" EndLineNr="39" ColNr="23" EndColNr="31">T-TRAN-ID</TheValue>
+            </DataIdent></TheIdent>
+           </DesigElement></TheElements>
+          </Designator>
+          <StringLiteral LineNr="39" EndLineNr="39" ColNr="33" EndColNr="36" ID="12054">
+           <TheValue ID="12196" LineNr="39" EndLineNr="39" ColNr="33" EndColNr="36">"] "</TheValue>
+          </StringLiteral>
+          <Designator LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29" ID="12060" XRef="11986">
+           <TheElements LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29" ID="-12059"><DesigElement LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29" ID="12059">
+            <TheIdent LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29" ID="-12058" XRef="11986"><DataIdent LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29" ID="12058" XRef="11986">
+             <TheValue ID="12197" LineNr="40" EndLineNr="40" ColNr="19" EndColNr="29">T-TRAN-DATE</TheValue>
+            </DataIdent></TheIdent>
+           </DesigElement></TheElements>
+          </Designator>
+          <StringLiteral LineNr="41" EndLineNr="41" ColNr="19" EndColNr="21" ID="12061">
+           <TheValue ID="12198" LineNr="41" EndLineNr="41" ColNr="19" EndColNr="21">"["</TheValue>
+          </StringLiteral>
+          <Designator LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36" ID="12065" XRef="12004">
+           <TheElements LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36" ID="-12064"><DesigElement LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36" ID="12064">
+            <TheIdent LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36" ID="-12063" XRef="12004"><DataIdent LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36" ID="12063" XRef="12004">
+             <TheValue ID="12199" LineNr="41" EndLineNr="41" ColNr="23" EndColNr="36">T-TRAN-BALANCE</TheValue>
+            </DataIdent></TheIdent>
+           </DesigElement></TheElements>
+          </Designator>
+          <StringLiteral LineNr="41" EndLineNr="41" ColNr="38" EndColNr="40" ID="12066">
+           <TheValue ID="12200" LineNr="41" EndLineNr="41" ColNr="38" EndColNr="40">"]"</TheValue>
+          </StringLiteral>
+         </TheArg></DisplayStatement></AList>
+        </StatementList></TheStatementList>
+        
+        
+       </IfStatement>
+       
+       <CallStatement LineNr="43" EndLineNr="43" ColNr="9" EndColNr="53" ID="12081">
+        <TheArg LineNr="43" EndLineNr="43" ColNr="30" EndColNr="53" ID="-12074"><CallArgument LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="12074">
+         <TheExpr LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="-12073" XRef="11952"><Designator LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="12073" XRef="11952">
+          <TheElements LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="-12072"><DesigElement LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="12072">
+           <TheIdent LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="-12071" XRef="11952"><DataIdent LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42" ID="12071" XRef="11952">
+            <TheValue ID="12203" LineNr="43" EndLineNr="43" ColNr="30" EndColNr="42">TRAN-CTRL-BLK</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheExpr>
+        </CallArgument><CallArgument LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="12080">
+         <TheExpr LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="-12079" XRef="11978"><Designator LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="12079" XRef="11978">
+          <TheElements LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="-12078"><DesigElement LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="12078">
+           <TheIdent LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="-12077" XRef="11978"><DataIdent LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53" ID="12077" XRef="11978">
+            <TheValue ID="12204" LineNr="43" EndLineNr="43" ColNr="44" EndColNr="53">T-TRAN-REC</TheValue>
+           </DataIdent></TheIdent>
+          </DesigElement></TheElements>
+         </Designator></TheExpr>
+        </CallArgument></TheArg>
+        
+        <TheProcToken LineNr="43" EndLineNr="43" ColNr="14" EndColNr="22" ID="-12070"><StringLiteral LineNr="43" EndLineNr="43" ColNr="14" EndColNr="22" ID="12070">
+         <TheValue ID="12205" LineNr="43" EndLineNr="43" ColNr="14" EndColNr="22">"TRANIDN"</TheValue>
+        </StringLiteral></TheProcToken>
+       </CallStatement>
+      </AList></StatementList></TheBody>
+      
+     </PerformStatement>
+    </AList></PeriodStatementList></AStatementList>
+    
+   </ParagraphStatementBlock></TheBlocks>
+  </ProcedureDivision></TheProcedureDivision>
+ </CobolProgram></ThePrograms></ROOT></SourceFile>
